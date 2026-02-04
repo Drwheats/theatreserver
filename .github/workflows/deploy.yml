@@ -17,7 +17,7 @@ jobs:
           username: deploy
           key: ${{ secrets.VM_SSH_KEY }}
           script: |
-            cd /var/www/json-api
+            cd /var/www/theatreserver
             git pull
             npm install
-            pm2 restart json-api
+            pm2 restart theatreserver
