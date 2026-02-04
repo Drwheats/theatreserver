@@ -4,7 +4,7 @@ const app = express();
 app.get("/", (req, res) => {
   res.json({
     status: "ok",
-    message: "Hello from Oracle Cloud",
+    message: "Bello from Oracle Cloud",
     time: new Date().toISOString()
   });
 });
