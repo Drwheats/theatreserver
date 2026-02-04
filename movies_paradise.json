@@ -1,0 +1,530 @@
+[
+  {
+    "Location": "The Paradise",
+    "date": "Today,  Feb 4",
+    "showtimes": [
+      "6:00 pm"
+    ],
+    "title": "Peter Hujar’s Day",
+    "link": "https://paradiseonbloor.com/movies/peter-hujars-day/",
+    "runtime": "76 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Today,  Feb 4",
+    "showtimes": [
+      "8:15 pm"
+    ],
+    "title": "The Skin I Live In",
+    "link": "https://paradiseonbloor.com/movies/the-skin-i-live-in/",
+    "runtime": "120 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Fri,  Feb 6",
+    "showtimes": [
+      "6:30 pm",
+      "8:45 pm",
+      "6:30 pm",
+      "8:30 pm"
+    ],
+    "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
+    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
+    "runtime": "60 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sat,  Feb 7",
+    "showtimes": [
+      "6:30 pm",
+      "8:45 pm"
+    ],
+    "title": "Candlelight Jazz: MF DOOM & Hip-Hop ft. Lavender Town",
+    "link": "https://paradiseonbloor.com/special_events/candlelight-jazz-mf-doom-hip-hop-ft-lavender-town/",
+    "runtime": "60 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sun,  Feb 8",
+    "showtimes": [
+      "6:00 pmSOLD OUT",
+      "8:00 pmSOLD OUT"
+    ],
+    "title": "Just For Laughs Presents Ed Gamble",
+    "link": "https://paradiseonbloor.com/special_events/just-for-laughs-presents-ed-gamble/",
+    "runtime": "90 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Mon,  Feb 9",
+    "showtimes": [
+      "6:00 pmSOLD OUT"
+    ],
+    "title": "Pillion: Toronto Premiere!",
+    "link": "https://paradiseonbloor.com/movies/pillion-toronto-premiere/",
+    "runtime": "107 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Mon,  Feb 9",
+    "showtimes": [
+      "8:30 pm"
+    ],
+    "title": "They Came Together",
+    "link": "https://paradiseonbloor.com/movies/they-came-together/",
+    "runtime": "83 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Feb 10",
+    "showtimes": [
+      "6:00 pm"
+    ],
+    "title": "Casablanca",
+    "link": "https://paradiseonbloor.com/movies/casablanca/",
+    "runtime": "103 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Feb 10",
+    "showtimes": [
+      "9:00 pm"
+    ],
+    "title": "Dirty Dancing",
+    "link": "https://paradiseonbloor.com/movies/dirty-dancing/",
+    "runtime": "100 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Wed,  Feb 11",
+    "showtimes": [
+      "8:30 pm"
+    ],
+    "title": "The Story of a Three-Day Pass",
+    "link": "https://paradiseonbloor.com/movies/the-story-of-a-three-day-pass/",
+    "runtime": "87 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Thu,  Feb 12",
+    "showtimes": [
+      "6:00 pm"
+    ],
+    "title": "Ghost",
+    "link": "https://paradiseonbloor.com/movies/ghost/",
+    "runtime": "127 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Thu,  Feb 12",
+    "showtimes": [
+      "9:00 pm"
+    ],
+    "title": "Knife+Heart",
+    "link": "https://paradiseonbloor.com/movies/knifeheart/",
+    "runtime": "102 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Fri,  Feb 13",
+    "showtimes": [
+      "7:00 pm"
+    ],
+    "title": "White Chicks",
+    "link": "https://paradiseonbloor.com/movies/white-chicks/",
+    "runtime": "109 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sat,  Feb 14",
+    "showtimes": [
+      "2:00 pm"
+    ],
+    "title": "Roman Holiday",
+    "link": "https://paradiseonbloor.com/movies/roman-holiday/",
+    "runtime": "119 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sat,  Feb 14",
+    "showtimes": [
+      "6:30 pm"
+    ],
+    "title": "50 First Dates with Lindsay Mullan",
+    "link": "https://paradiseonbloor.com/movies/50-first-dates-with-lindsay-mullan/",
+    "runtime": "99 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sun,  Feb 15",
+    "showtimes": [
+      "3:00 pm"
+    ],
+    "title": "Gary Topp Presents Junkie Run",
+    "link": "https://paradiseonbloor.com/special_events/gary-topp-presents-junkie-run/",
+    "runtime": "120 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sun,  Feb 15",
+    "showtimes": [
+      "6:30 pm"
+    ],
+    "title": "La Collectionneuse",
+    "link": "https://paradiseonbloor.com/movies/la-collectionneuse/",
+    "runtime": "86 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sun,  Feb 15",
+    "showtimes": [
+      "9:00 pm",
+      "6:00 pm"
+    ],
+    "title": "Montreal, My Beautiful",
+    "link": "https://paradiseonbloor.com/movies/montreal-my-beautiful/",
+    "runtime": "117 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Mon,  Feb 16",
+    "showtimes": [
+      "2:30 pm"
+    ],
+    "title": "My Neighbor Totoro",
+    "link": "https://paradiseonbloor.com/movies/my-neighbor-totoro/",
+    "runtime": "86 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Mon,  Feb 16",
+    "showtimes": [
+      "5:00 pm"
+    ],
+    "title": "Where the Wild Things Are",
+    "link": "https://paradiseonbloor.com/movies/where-the-wild-things-are/",
+    "runtime": "101 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Mon,  Feb 16",
+    "showtimes": [
+      "7:45 pm"
+    ],
+    "title": "Lost in Translation",
+    "link": "https://paradiseonbloor.com/movies/lost-in-translation/",
+    "runtime": "102 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Feb 17",
+    "showtimes": [
+      "6:00 pm"
+    ],
+    "title": "The Bridges of Madison County",
+    "link": "https://paradiseonbloor.com/movies/the-bridges-of-madison-county/",
+    "runtime": "135 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Wed,  Feb 18",
+    "showtimes": [
+      "7:30 pm"
+    ],
+    "title": "The Birdcage",
+    "link": "https://paradiseonbloor.com/movies/the-birdcage-2/",
+    "runtime": "119 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Thu,  Feb 19",
+    "showtimes": [
+      "9:00 pm"
+    ],
+    "title": "Road House",
+    "link": "https://paradiseonbloor.com/movies/road-house/",
+    "runtime": "114 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Fri,  Feb 20",
+    "showtimes": [
+      "6:30 pm",
+      "8:45 pm"
+    ],
+    "title": "Candlelight: A Tribute to the Kings of R&B: Usher, Mario, and More feat. Del Hartley",
+    "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-the-kings-of-rb-usher-mario-and-more-feat-del-hartley/",
+    "runtime": "60 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sat,  Feb 21",
+    "showtimes": [
+      "7:30 pm"
+    ],
+    "title": "IDOL WORSHIP: An Evening with Mink Stole & Peaches Christ",
+    "link": "https://paradiseonbloor.com/special_events/idol-worship-an-evening-with-mink-stole-peaches-christ/",
+    "runtime": "120 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sun,  Feb 22",
+    "showtimes": [
+      "1:30 pm"
+    ],
+    "title": "Double Feature: Il Sorpasso & Orchestra Rehearsal",
+    "link": "https://paradiseonbloor.com/programs/double-feature-il-sorpasso-orchestra-rehearsal/",
+    "runtime": "190 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sun,  Feb 22",
+    "showtimes": [
+      "6:00 pm"
+    ],
+    "title": "Brief Encounter",
+    "link": "https://paradiseonbloor.com/movies/brief-encounter/",
+    "runtime": "86 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sun,  Feb 22",
+    "showtimes": [
+      "8:30 pm"
+    ],
+    "title": "Shanghai Blues",
+    "link": "https://paradiseonbloor.com/movies/shanghai-blues/",
+    "runtime": "103 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Mon,  Feb 23",
+    "showtimes": [
+      "6:30 pm"
+    ],
+    "title": "Member Mondays: Strangers on a Train",
+    "link": "https://paradiseonbloor.com/movies/member-mondays-strangers-on-a-train/",
+    "runtime": "101 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Feb 24",
+    "showtimes": [
+      "6:00 pm"
+    ],
+    "title": "Carrie: 50th Anniversary!",
+    "link": "https://paradiseonbloor.com/movies/carrie-50th-anniversary/",
+    "runtime": "98 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Feb 24",
+    "showtimes": [
+      "9:15 pm"
+    ],
+    "title": "Christine",
+    "link": "https://paradiseonbloor.com/movies/christine/",
+    "runtime": "110 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Midnite weekend screenings happen on Friday & Saturday nights,. so please be sure to arrive on Friday and/or Saturday night by 11:45pm for seating and the screening will start after midnight.",
+    "showtimes": null,
+    "title": "Thelonious Monk: Straight, No Chaser: 4K Restoration!",
+    "link": "https://paradiseonbloor.com/movies/thelonious-monk-straight-no-chaser-4k-restoration/",
+    "runtime": "90 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Wed,  Feb 25",
+    "showtimes": [
+      "8:30 pm"
+    ],
+    "title": "2046",
+    "link": "https://paradiseonbloor.com/movies/2046/",
+    "runtime": "128 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Fri,  Feb 27",
+    "showtimes": [
+      "6:30 pm",
+      "8:45 pm"
+    ],
+    "title": "Candlelight Jazz: Nina Simone, Ella Fitzgerald, and the Women of Jazz feat. Joanna Majoko",
+    "link": "https://paradiseonbloor.com/special_events/candlelight-jazz-nina-simone-ella-fitzgerald-and-the-women-of-jazz-feat-joanna-majoko/",
+    "runtime": "60 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sat,  Feb 28",
+    "showtimes": [
+      "2:00 pm"
+    ],
+    "title": "The Cabinet of Dr. Caligari",
+    "link": "https://paradiseonbloor.com/movies/the-cabinet-of-dr-caligari/",
+    "runtime": "71 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sat,  Feb 28",
+    "showtimes": [
+      "6:00 pm"
+    ],
+    "title": "Juice with DJ Agile",
+    "link": "https://paradiseonbloor.com/movies/juice-with-dj-agile/",
+    "runtime": "96 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sat,  Feb 28",
+    "showtimes": [
+      "9:00 pmSOLD OUT"
+    ],
+    "title": "Fucktoys",
+    "link": "https://paradiseonbloor.com/movies/fucktoys/",
+    "runtime": "106 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Mar 3",
+    "showtimes": [
+      "6:00 pm"
+    ],
+    "title": "The Shining",
+    "link": "https://paradiseonbloor.com/movies/the-shining/",
+    "runtime": "144 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Mar 3",
+    "showtimes": [
+      "9:15 pm"
+    ],
+    "title": "Doctor Sleep",
+    "link": "https://paradiseonbloor.com/movies/doctor-sleep/",
+    "runtime": "152 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Thu,  Mar 5",
+    "showtimes": [
+      "7:00 pm"
+    ],
+    "title": "Bridget Jones’s Diary + Definitely Thriving Book Launch with Kerry Clare",
+    "link": "https://paradiseonbloor.com/movies/bridget-joness-diary-definitely-thriving-book-launch-with-kerry-clare/",
+    "runtime": "97 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Mar 10",
+    "showtimes": [
+      "6:00 pm"
+    ],
+    "title": "Dolores Claiborne",
+    "link": "https://paradiseonbloor.com/movies/dolores-claiborne/",
+    "runtime": "132 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Mar 10",
+    "showtimes": [
+      "9:00 pm"
+    ],
+    "title": "Misery",
+    "link": "https://paradiseonbloor.com/movies/misery/",
+    "runtime": "107 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Midnite weekend screenings happen on Friday & Saturday nights,. so please be sure to arrive on Friday and/or Saturday night by 11:45pm for seating and the screening will start after midnight.",
+    "showtimes": null,
+    "title": "Cabaret",
+    "link": "https://paradiseonbloor.com/movies/cabaret/",
+    "runtime": "124 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Midnite weekend screenings happen on Friday & Saturday nights,. so please be sure to arrive on Friday and/or Saturday night by 11:45pm for seating and the screening will start after midnight.",
+    "showtimes": null,
+    "title": "Josie and the Pussycats",
+    "link": "https://paradiseonbloor.com/movies/josie-and-the-pussycats/",
+    "runtime": "98 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sun,  Mar 15",
+    "showtimes": [
+      "7:00 pm"
+    ],
+    "title": "Oscars in Paradise",
+    "link": "https://paradiseonbloor.com/special_events/oscars-in-paradise/",
+    "runtime": "210 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Sun,  Mar 22",
+    "showtimes": [
+      "2:00 pm"
+    ],
+    "title": "In the Movies: The Music Videos of Sloan with Jay Ferguson and Chris Murphy",
+    "link": "https://paradiseonbloor.com/special_events/in-the-movies-the-music-videos-of-sloan-with-jay-ferguson-and-chris-murphy/",
+    "runtime": "120 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Mar 24",
+    "showtimes": [
+      "6:15 pm"
+    ],
+    "title": "Pet Sematary",
+    "link": "https://paradiseonbloor.com/movies/pet-sematary/",
+    "runtime": "102 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Mar 24",
+    "showtimes": [
+      "8:45 pm"
+    ],
+    "title": "It",
+    "link": "https://paradiseonbloor.com/movies/it/",
+    "runtime": "135 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Midnite weekend screenings happen on Friday & Saturday nights,. so please be sure to arrive on Friday and/or Saturday night by 11:45pm for seating and the screening will start after midnight.",
+    "showtimes": null,
+    "title": "Foxy Brown",
+    "link": "https://paradiseonbloor.com/movies/foxy-brown/",
+    "runtime": "94 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Mar 31",
+    "showtimes": [
+      "6:00 pm"
+    ],
+    "title": "The Dead Zone",
+    "link": "https://paradiseonbloor.com/movies/the-dead-zone/",
+    "runtime": "103 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Tue,  Mar 31",
+    "showtimes": [
+      "8:45 pm"
+    ],
+    "title": "The Mist",
+    "link": "https://paradiseonbloor.com/movies/the-mist/",
+    "runtime": "126 min"
+  },
+  {
+    "Location": "The Paradise",
+    "date": "Midnite weekend screenings happen on Friday & Saturday nights,. so please be sure to arrive on Friday and/or Saturday night by 11:45pm for seating and the screening will start after midnight.",
+    "showtimes": null,
+    "title": "Scarecrow in a Garden of Cucumbers",
+    "link": "https://paradiseonbloor.com/movies/scarecrow-in-a-garden-of-cucumbers/",
+    "runtime": "82 min"
+  }
+]

@@ -140,3 +140,4 @@ vite.config.ts.timestamp-*
 
 #payload for testing
 testpayload.json
+.venv
