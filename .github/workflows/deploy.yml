@@ -13,9 +13,9 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1
         with:
-          host: ${{ secrets.VM_HOST }}
+          host: ${{ secrets.OCI_HOST }}
           username: deploy
-          key: ${{ secrets.VM_SSH_KEY }}
+          key: ${{ secrets.OCI_SSH_KEY }}
           script: |
             cd /var/www/theatreserver
             git pull
