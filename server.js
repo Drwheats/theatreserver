@@ -6,10 +6,8 @@ import { fileURLToPath } from 'url'; // Required for __dirname fix
 
 const app = express();
 
-// --- Fix for __dirname in ES Modules ---
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-// ----------------------------------------
 
 app.use(cors({
     origin: '*',
