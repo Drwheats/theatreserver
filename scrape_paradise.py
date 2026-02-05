@@ -39,27 +39,47 @@ def scrape_paradise():
         response = requests.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
+        
+        # Paradise groups movies in .showtimes-description-inner
         for block in soup.select(".showtimes-description-inner"):
-            text = block.get_text(" ", strip=True)
-            title_tag = block.select_one("h2, .showtimes-title, .film-title")
+            # 1. Get Title
+            title_tag = block.select_one("h2")
             title = title_tag.get_text(strip=True) if title_tag else "Unknown Title"
+            
+            # 2. Get Date (Avoiding the ARIA span)
+            # We look for h3 (common for dates) or .show-date, specifically avoiding the aria-label
+            date = "Unknown Date"
+            date_tag = block.select_one("h3, .show-date")
+            if date_tag:
+                date_text = date_tag.get_text(strip=True)
+                # If it's that annoying SEO string, we try to find a sibling or parent date
+                if "Dates with showtimes for" in date_text:
+                    # Logic fallback: Look for a span that DOESN'T have aria-label
+                    alt_date = block.find("span", {"class": None}, string=re.compile(r'\d'))
+                    date = alt_date.get_text(strip=True) if alt_date else date_text
+                else:
+                    date = date_text
+
+            # 3. Get Link
             link_tag = block.find("a", href=True)
             link = urljoin(url, link_tag["href"]) if link_tag else None
-            date_tag = block.select_one(".selected-date, strong, p")
-            date = date_tag.get_text(strip=True) if date_tag else None
-            runtime_match = re.search(r"Run\s*Time:\s*([\d]+(?:\s*min)?)", text, re.I)
-            runtime = runtime_match.group(1) if runtime_match else None
             
-            showtimes = [elem.get_text(strip=True) for elem in block.find_all("li") 
-                         if re.search(r"\b\d{1,2}:\d{2}\s*(am|pm)?\b", elem.get_text(), re.I)]
+            # 4. Get Showtimes
+            # Paradise uses <li> tags for times
+            showtimes = []
+            for li in block.find_all("li"):
+                time_text = li.get_text(strip=True)
+                # Ensure it looks like a time (e.g., 7:00 pm)
+                if re.search(r"\d{1,2}:\d{2}", time_text):
+                    showtimes.append(time_text)
 
             movies.append({
                 "source": "The Paradise",
                 "title": title,
-                "date": date,
-                "showtimes": showtimes, # Handing off to main to flatten
+                "date": date, # You may need to format this to YYYY-MM-DD in main()
+                "showtimes": showtimes,
                 "link": link,
-                "runtime": runtime,
+                "runtime": None, # Paradise runtime is often inconsistent in HTML
             })
     except Exception as e:
         print(f"❌ Error Paradise: {e}")
@@ -121,7 +141,9 @@ def main():
     raw_data = []
     final_data = []
 
-    scrapers = [scrape_paradise, scrape_revue]
+    scrapers = [scrape_paradise, 
+                #scrape_revue
+                ]
 
     for scraper in scrapers:
         print(f"📡 Running {scraper.__name__}...")
