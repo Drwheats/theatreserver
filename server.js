@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/calendar", (req, res) => {
-  const filePath = path.join(__dirname, "testpayload.json");
+  const filePath = path.join(__dirname, "all_movies.json");
 
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
