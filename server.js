@@ -9,10 +9,27 @@ const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-app.use(cors({
-    origin: 'https://calendar.ben.place', // Be specific
-    methods: ['GET', 'POST'],
-}));
+// Allow multiple trusted origins via a whitelist
+const whitelist = [
+  'https://calendar.ben.place',
+  // add other origins you trust, for example during development:
+  'http://localhost:3000',
+];
+
+const corsOptions = {
+  origin: (origin, callback) => {
+    // If no origin (e.g. server-to-server or curl), allow it
+    if (!origin) return callback(null, true);
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  methods: ['GET', 'POST'],
+};
+
+app.use(cors(corsOptions));
 
 app.get("/", (req, res) => {
   res.json({

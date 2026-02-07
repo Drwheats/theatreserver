@@ -4,7 +4,7 @@ import json
 import re
 import os
 from urllib.parse import urljoin
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Config
 OUTPUT_FILE = "all_movies.json"
@@ -156,14 +156,148 @@ def scrape_tiff_local():
         print(f"❌ Error TIFF: {e}")
     return standardized_movies
 
+def scrape_imagine_carlton():
+    location = "Imagine Cinemas : Carlton"
+    movies = []
+    
+    try:
+        for i in range(10):
+            date = datetime.now() + timedelta(days=i)
+            date_str = date.strftime('%Y-%m-%d')
+            
+            url = f'https://imaginecinemas.com/cinema/carlton/?date={date_str}'
+            response = requests.get(url, headers=HEADERS, timeout=10)
+            response.raise_for_status()
+            
+            soup = BeautifulSoup(response.text, 'html.parser')
+            elements = soup.select('.movie-showtime')
+            
+            
+            for element in elements:
+                title_elem = element.select_one('.movie-title')
+                title = title_elem.get_text(strip=True) if title_elem else "Unknown Title"
+                times = element.select('.times')
+                
+                for time in times:
+                    perf_elem = time.select_one('.movie-performance')
+                    if not perf_elem:
+                        continue
+                    
+                    temp = perf_elem.get_text(strip=True)
+                    temp_link = perf_elem.get('href')
+                    
+                    showtimes = temp.split("PM")
+                    for showtime in showtimes:
+                        if showtime.strip():
+                            movies.append({
+                                "source": location,
+                                "title": title,
+                                "date": date_str,
+                                "showtimes": [showtime.strip() + "PM"],
+                                "link": temp_link,
+                                "runtime": None
+                            })
+    except Exception as e:
+        print(f"❌ Error Imagine Carlton: {e}")
+    
+    return movies
+
+def scrape_innis():
+    url = "https://innis.utoronto.ca/happening-at-innis/"
+    events = []
+    prefix = "CINSSU presents: Free Friday Film"
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        res.raise_for_status()
+        soup = BeautifulSoup(res.text, "html.parser")
+
+        # scan section blocks that Elementor generates and look for the event anchor
+        sections = soup.find_all('section', class_=lambda c: c and 'elementor-section' in c)
+        seen = set()
+        month_regex = r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December)'
+
+        for sec in sections:
+            a = sec.find('a', string=re.compile(re.escape(prefix), re.I))
+            if not a:
+                # sometimes the anchor text is inside a child element
+                a = sec.find('a')
+                if not a or not re.search(re.escape(prefix), a.get_text(" ", strip=True), re.I):
+                    continue
+
+            full_text = a.get_text(" ", strip=True)
+            # remove the prefix and any separators, then strip leading dashes/en-dashes
+            title = re.sub(rf'^{re.escape(prefix)}\s*[:\-–—]?\s*', '', full_text, flags=re.I).strip()
+            title = re.sub(r'^[\s\u2013\u2014\-–—]+', '', title).strip()
+            if not title:
+                continue
+            if title in seen:
+                continue
+            seen.add(title)
+
+            link = urljoin(url, a['href']) if a.has_attr('href') else None
+
+            # try to parse month/day from nearby heading titles
+            headings = [h.get_text(strip=True) for h in sec.select('.elementor-heading-title')]
+            date_text = ''
+            for i, txt in enumerate(headings):
+                m_mon = re.search(month_regex, txt, re.I)
+                if m_mon:
+                    # look for day in same text or next
+                    m_day = re.search(r'(\d{1,2})', txt)
+                    if not m_day and i + 1 < len(headings):
+                        m_day = re.search(r'(\d{1,2})', headings[i+1])
+                        month_name = m_mon.group(0)
+                    else:
+                        month_name = m_mon.group(0)
+                    if m_day:
+                        day = m_day.group(1)
+                        # try parsing with both abbreviated and full month
+                        for fmt in ("%b %d %Y", "%B %d %Y"):
+                            try:
+                                dt = datetime.strptime(f"{month_name} {day} {datetime.now().year}", fmt)
+                                date_text = dt.strftime("%Y-%m-%d")
+                                break
+                            except:
+                                continue
+                    if date_text:
+                        break
+
+            # fallback: look for ISO date or default to today
+            if not date_text:
+                bigtxt = sec.get_text(" ", strip=True)
+                mdate = re.search(r'(\d{4}-\d{2}-\d{2})', bigtxt)
+                if mdate:
+                    date_text = mdate.group(1)
+                else:
+                    date_text = datetime.now().strftime("%Y-%m-%d")
+
+            # find first time in the section
+            bigtxt = sec.get_text(" ", strip=True)
+            mtime = re.search(r'(\d{1,2}:\d{2}\s*(?:am|pm)?)', bigtxt, re.I)
+            times = [mtime.group(1)] if mtime else []
+
+            events.append({
+                "source": "Innis College",
+                "title": title,
+                "date": date_text,
+                "showtimes": times,
+                "link": link,
+                "runtime": None
+            })
+    except Exception as e:
+        print(f"❌ Error Innis: {e}")
+    return events
+
 def main():
     raw_data = []
     final_data = []
 
     scrapers = [
-        scrape_paradise, 
-        scrape_revue,
-        scrape_tiff_local
+        # scrape_paradise, 
+        # scrape_revue,
+        # scrape_tiff_local,
+        # scrape_imagine_carlton,
+        scrape_innis
     ]
 
     for scraper in scrapers:
