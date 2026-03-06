@@ -4,7 +4,7 @@
     "title": "Montreal, My Beautiful",
     "date": "2026-03-05",
     "link": "https://tiff.net/events/montreal-my-beautiful",
-    "runtime": null,
+    "runtime": 130,
     "showtime": 1545
   },
   {
@@ -12,7 +12,7 @@
     "title": "2026 Oscar-Nominated Short Films: Animated",
     "date": "2026-03-05",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-animated",
-    "runtime": null,
+    "runtime": 94,
     "showtime": 1550
   },
   {
@@ -20,7 +20,7 @@
     "title": "All That's Left of You",
     "date": "2026-03-05",
     "link": "https://tiff.net/events/all-thats-left-of-you",
-    "runtime": null,
+    "runtime": 158,
     "showtime": 1600
   },
   {
@@ -28,7 +28,7 @@
     "title": "The President's Cake",
     "date": "2026-03-05",
     "link": "https://tiff.net/events/the-presidents-cake",
-    "runtime": null,
+    "runtime": 117,
     "showtime": 1800
   },
   {
@@ -36,7 +36,7 @@
     "title": "10e Chambre, instants d’audience",
     "date": "2026-03-05",
     "link": "https://tiff.net/events/10e-chambre-instants-daudience",
-    "runtime": null,
+    "runtime": 112,
     "showtime": 1830
   },
   {
@@ -44,7 +44,7 @@
     "title": "2026 Oscar-Nominated Short Films: Live Action",
     "date": "2026-03-05",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-live-action",
-    "runtime": null,
+    "runtime": 130,
     "showtime": 1910
   },
   {
@@ -52,7 +52,7 @@
     "title": "Jimpa",
     "date": "2026-03-05",
     "link": "https://tiff.net/events/jimpa",
-    "runtime": null,
+    "runtime": 126,
     "showtime": 2030
   },
   {
@@ -60,7 +60,7 @@
     "title": "2026 Oscar-Nominated Short Films: Documentary",
     "date": "2026-03-05",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-documentary",
-    "runtime": null,
+    "runtime": 181,
     "showtime": 2055
   },
   {
@@ -68,7 +68,7 @@
     "title": "Revue Event: TRAIN DREAMS - Presented on 35mm!",
     "date": "2026-03-05",
     "link": "https://revuecinema.ca/films/revue-event-train-dreams-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -76,7 +76,7 @@
     "title": "Sinners",
     "date": "2026-03-05",
     "link": "https://tiff.net/events/sinners",
-    "runtime": null,
+    "runtime": 149,
     "showtime": 2130
   },
   {
@@ -84,7 +84,7 @@
     "title": "Sirāt",
     "date": "2026-03-05",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 2150
   },
   {
@@ -92,7 +92,7 @@
     "title": "2026 Oscar-Nominated Short Films: Live Action",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-live-action",
-    "runtime": null,
+    "runtime": 132,
     "showtime": 1215
   },
   {
@@ -100,7 +100,7 @@
     "title": "The President's Cake",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/the-presidents-cake",
-    "runtime": null,
+    "runtime": 118,
     "showtime": 1245
   },
   {
@@ -108,7 +108,7 @@
     "title": "Sirāt",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 1300
   },
   {
@@ -116,7 +116,7 @@
     "title": "Montreal, My Beautiful",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/montreal-my-beautiful",
-    "runtime": null,
+    "runtime": 131,
     "showtime": 1315
   },
   {
@@ -124,7 +124,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1400
   },
   {
@@ -132,7 +132,7 @@
     "date": "2026-03-06",
     "title": "The Secret Agent",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "runtime": "158 mins",
+    "runtime": 158,
     "showtime": 1440
   },
   {
@@ -140,7 +140,7 @@
     "title": "2026 Oscar-Nominated Short Films: Documentary",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-documentary",
-    "runtime": null,
+    "runtime": 183,
     "showtime": 1500
   },
   {
@@ -148,7 +148,7 @@
     "title": "Sirāt",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 1530
   },
   {
@@ -156,7 +156,7 @@
     "title": "The President's Cake",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/the-presidents-cake",
-    "runtime": null,
+    "runtime": 118,
     "showtime": 1600
   },
   {
@@ -164,7 +164,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1615
   },
   {
@@ -172,7 +172,7 @@
     "title": "2026 Oscar Nominated Shorts: Documentary",
     "date": "2026-03-06",
     "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-documentary/",
-    "runtime": null,
+    "runtime": 153,
     "showtime": 1800
   },
   {
@@ -180,7 +180,7 @@
     "title": "2026 Oscar-Nominated Short Films: Animated",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-animated",
-    "runtime": null,
+    "runtime": 96,
     "showtime": 1815
   },
   {
@@ -188,7 +188,7 @@
     "date": "2026-03-06",
     "title": "Hamnet",
     "link": "https://www.foxtheatre.ca/movies/hamnet/",
-    "runtime": "125 mins",
+    "runtime": 125,
     "showtime": 1815
   },
   {
@@ -196,7 +196,7 @@
     "title": "Faits divers",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/faits-divers",
-    "runtime": null,
+    "runtime": 100,
     "showtime": 1830
   },
   {
@@ -204,7 +204,7 @@
     "title": "The Rider (2018)",
     "date": "2026-03-06",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-06&perfix=133784",
-    "runtime": null,
+    "runtime": 44,
     "showtime": 1830
   },
   {
@@ -212,7 +212,7 @@
     "title": "EPiC: Elvis Presley in Concert",
     "date": "2026-03-06",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-06&perfix=133776",
-    "runtime": null,
+    "runtime": 38,
     "showtime": 1835
   },
   {
@@ -220,7 +220,7 @@
     "title": "Lady Bird (2017)",
     "date": "2026-03-06",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-06&perfix=133778",
-    "runtime": null,
+    "runtime": 34,
     "showtime": 1840
   },
   {
@@ -228,7 +228,7 @@
     "title": "Enter the Dragon (1973)",
     "date": "2026-03-06",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-06&perfix=133772",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1845
   },
   {
@@ -236,7 +236,7 @@
     "title": "Nirvanna the Band the Show the Movie",
     "date": "2026-03-06",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-06&perfix=133788",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1850
   },
   {
@@ -244,7 +244,7 @@
     "title": "The Bride!",
     "date": "2026-03-06",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-06&perfix=133786",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1855
   },
   {
@@ -252,7 +252,7 @@
     "title": "Hoppers",
     "date": "2026-03-06",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-06&perfix=133774",
-    "runtime": null,
+    "runtime": 45,
     "showtime": 1900
   },
   {
@@ -260,7 +260,7 @@
     "title": "Youngblood",
     "date": "2026-03-06",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-06&perfix=133780",
-    "runtime": null,
+    "runtime": 24,
     "showtime": 1910
   },
   {
@@ -268,7 +268,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1915
   },
   {
@@ -276,7 +276,7 @@
     "title": "Marty Supreme",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/marty-supreme",
-    "runtime": null,
+    "runtime": 163,
     "showtime": 1930
   },
   {
@@ -284,7 +284,7 @@
     "title": "Montreal, My Beautiful",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/montreal-my-beautiful",
-    "runtime": null,
+    "runtime": 131,
     "showtime": 2030
   },
   {
@@ -292,7 +292,7 @@
     "title": "2026 Oscar-Nominated Short Films: Live Action",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-live-action",
-    "runtime": null,
+    "runtime": 132,
     "showtime": 2045
   },
   {
@@ -300,7 +300,7 @@
     "title": "Revue Event: www.RachelOrmont.com",
     "date": "2026-03-06",
     "link": "https://revuecinema.ca/films/revue-event-www-rachelormont-com/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -308,7 +308,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-06",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 2130
   },
   {
@@ -316,7 +316,7 @@
     "title": "Chilly Scenes of Winter",
     "date": "2026-03-06",
     "link": "https://innis.utoronto.ca/events/cinssu-presents-free-friday-film-chilly-scenes-of-winter/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2359
   },
   {
@@ -324,7 +324,7 @@
     "title": "2026 Oscar-Nominated Short Films: Documentary",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-documentary",
-    "runtime": null,
+    "runtime": 183,
     "showtime": 1145
   },
   {
@@ -332,7 +332,7 @@
     "title": "2026 Oscar-Nominated Short Films: Animated",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-animated",
-    "runtime": null,
+    "runtime": 96,
     "showtime": 1205
   },
   {
@@ -340,7 +340,7 @@
     "title": "MARTY SUPREME - Presented on 70mm!",
     "date": "2026-03-07",
     "link": "https://revuecinema.ca/films/marty-supreme-presented-on-70mm/",
-    "runtime": null,
+    "runtime": 150,
     "showtime": 1230
   },
   {
@@ -348,7 +348,7 @@
     "title": "The Rider (2018)",
     "date": "2026-03-07",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-07&perfix=133818",
-    "runtime": null,
+    "runtime": 44,
     "showtime": 1230
   },
   {
@@ -356,7 +356,7 @@
     "date": "2026-03-07",
     "title": "The Secret Agent",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "runtime": "158 mins",
+    "runtime": 158,
     "showtime": 1230
   },
   {
@@ -364,7 +364,7 @@
     "title": "EPiC: Elvis Presley in Concert",
     "date": "2026-03-07",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-07&perfix=133810",
-    "runtime": null,
+    "runtime": 38,
     "showtime": 1235
   },
   {
@@ -372,7 +372,7 @@
     "title": "Lady Bird (2017)",
     "date": "2026-03-07",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-07&perfix=133798",
-    "runtime": null,
+    "runtime": 34,
     "showtime": 1240
   },
   {
@@ -380,7 +380,7 @@
     "title": "Montreal, My Beautiful",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/montreal-my-beautiful",
-    "runtime": null,
+    "runtime": 131,
     "showtime": 1245
   },
   {
@@ -388,7 +388,7 @@
     "title": "Enter the Dragon (1973)",
     "date": "2026-03-07",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-07&perfix=133806",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1245
   },
   {
@@ -396,7 +396,7 @@
     "title": "Nirvanna the Band the Show the Movie",
     "date": "2026-03-07",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-07&perfix=133790",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1250
   },
   {
@@ -404,7 +404,7 @@
     "title": "The Bride!",
     "date": "2026-03-07",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-07&perfix=133822",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1255
   },
   {
@@ -412,7 +412,7 @@
     "title": "Hoppers",
     "date": "2026-03-07",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-07&perfix=133802",
-    "runtime": null,
+    "runtime": 45,
     "showtime": 1300
   },
   {
@@ -420,7 +420,7 @@
     "title": "Youngblood",
     "date": "2026-03-07",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-07&perfix=133814",
-    "runtime": null,
+    "runtime": 24,
     "showtime": 1310
   },
   {
@@ -428,7 +428,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1330
   },
   {
@@ -436,7 +436,7 @@
     "title": "2026 Oscar Nominated Shorts: Animated",
     "date": "2026-03-07",
     "link": "https://paradiseonbloor.com/programs/2026-oscar-nominated-shorts-animated/",
-    "runtime": null,
+    "runtime": 83,
     "showtime": 1430
   },
   {
@@ -444,7 +444,7 @@
     "title": "Marty Supreme",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/marty-supreme",
-    "runtime": null,
+    "runtime": 163,
     "showtime": 1515
   },
   {
@@ -452,7 +452,7 @@
     "title": "A Thousand and One",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/a-thousand-and-one",
-    "runtime": null,
+    "runtime": 122,
     "showtime": 1530
   },
   {
@@ -460,7 +460,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1545
   },
   {
@@ -468,7 +468,7 @@
     "title": "2026 Oscar-Nominated Short Films: Animated",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-animated",
-    "runtime": null,
+    "runtime": 96,
     "showtime": 1550
   },
   {
@@ -476,7 +476,7 @@
     "title": "2026 Oscar Nominated Shorts: Animation",
     "date": "2026-03-07",
     "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-animation/",
-    "runtime": null,
+    "runtime": 85,
     "showtime": 1600
   },
   {
@@ -484,7 +484,7 @@
     "date": "2026-03-07",
     "title": "Hamnet",
     "link": "https://www.foxtheatre.ca/movies/hamnet/",
-    "runtime": "125 mins",
+    "runtime": 125,
     "showtime": 1600
   },
   {
@@ -492,7 +492,7 @@
     "title": "A Poet",
     "date": "2026-03-07",
     "link": "https://paradiseonbloor.com/movies/a-poet/",
-    "runtime": null,
+    "runtime": 123,
     "showtime": 1700
   },
   {
@@ -500,7 +500,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1800
   },
   {
@@ -508,7 +508,7 @@
     "title": "The President's Cake",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/the-presidents-cake",
-    "runtime": null,
+    "runtime": 118,
     "showtime": 1815
   },
   {
@@ -516,7 +516,7 @@
     "title": "Urgences",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/urgences",
-    "runtime": null,
+    "runtime": 111,
     "showtime": 1830
   },
   {
@@ -524,7 +524,7 @@
     "title": "(Not-So) Terrible Twos: CLERKS II - 20th Anniversary Screening!",
     "date": "2026-03-07",
     "link": "https://revuecinema.ca/films/not-so-terrible-twos-clerks-ii-20th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 97,
     "showtime": 1845
   },
   {
@@ -532,7 +532,7 @@
     "date": "2026-03-07",
     "title": "Nirvanna the Band the Show the Movie",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "runtime": "100 mins",
+    "runtime": 100,
     "showtime": 1900
   },
   {
@@ -540,7 +540,7 @@
     "title": "Sinners",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/sinners",
-    "runtime": null,
+    "runtime": 149,
     "showtime": 1930
   },
   {
@@ -548,7 +548,7 @@
     "title": "All About Eve",
     "date": "2026-03-07",
     "link": "https://paradiseonbloor.com/movies/all-about-eve/",
-    "runtime": null,
+    "runtime": 139,
     "showtime": 2015
   },
   {
@@ -556,7 +556,7 @@
     "title": "2026 Oscar-Nominated Short Films: Live Action",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-live-action",
-    "runtime": null,
+    "runtime": 132,
     "showtime": 2015
   },
   {
@@ -564,7 +564,7 @@
     "title": "Sirāt",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 2045
   },
   {
@@ -572,7 +572,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-07",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 2100
   },
   {
@@ -580,7 +580,7 @@
     "title": "Revue Event: www.RachelOrmont.com",
     "date": "2026-03-07",
     "link": "https://revuecinema.ca/films/revue-event-www-rachelormont-com/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -588,7 +588,7 @@
     "title": "The Midnight Revue: ESCAPE FROM NEW YORK (1981) - New 4K Restoration!",
     "date": "2026-03-07",
     "link": "https://revuecinema.ca/films/the-midnight-revue-escape-from-new-york-1981-new-4k-restoration/",
-    "runtime": null,
+    "runtime": 99,
     "showtime": 2359
   },
   {
@@ -596,7 +596,7 @@
     "title": "Sirāt",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 1145
   },
   {
@@ -604,7 +604,7 @@
     "title": "Revue Event: TWIN PEAKS: Season 1 (Pilot + episode 1)",
     "date": "2026-03-08",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-1-pilot-episode-1/",
-    "runtime": null,
+    "runtime": 141,
     "showtime": 1200
   },
   {
@@ -612,7 +612,7 @@
     "date": "2026-03-08",
     "title": "Hamnet",
     "link": "https://www.foxtheatre.ca/movies/hamnet/",
-    "runtime": "125 mins",
+    "runtime": 125,
     "showtime": 1200
   },
   {
@@ -620,7 +620,7 @@
     "title": "Montreal, My Beautiful",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/montreal-my-beautiful",
-    "runtime": null,
+    "runtime": 131,
     "showtime": 1215
   },
   {
@@ -628,7 +628,7 @@
     "title": "The Rider (2018)",
     "date": "2026-03-08",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-08&perfix=133854",
-    "runtime": null,
+    "runtime": 44,
     "showtime": 1230
   },
   {
@@ -636,7 +636,7 @@
     "title": "EPiC: Elvis Presley in Concert",
     "date": "2026-03-08",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-08&perfix=133846",
-    "runtime": null,
+    "runtime": 38,
     "showtime": 1235
   },
   {
@@ -644,7 +644,7 @@
     "title": "Lady Bird (2017)",
     "date": "2026-03-08",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-08&perfix=133834",
-    "runtime": null,
+    "runtime": 34,
     "showtime": 1240
   },
   {
@@ -652,7 +652,7 @@
     "title": "2026 Oscar-Nominated Short Films: Live Action",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-live-action",
-    "runtime": null,
+    "runtime": 132,
     "showtime": 1245
   },
   {
@@ -660,7 +660,7 @@
     "title": "Enter the Dragon (1973)",
     "date": "2026-03-08",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-08&perfix=133842",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1245
   },
   {
@@ -668,7 +668,7 @@
     "title": "Nirvanna the Band the Show the Movie",
     "date": "2026-03-08",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-08&perfix=133826",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1250
   },
   {
@@ -676,7 +676,7 @@
     "title": "The Bride!",
     "date": "2026-03-08",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-08&perfix=133858",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1255
   },
   {
@@ -684,7 +684,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1300
   },
   {
@@ -692,7 +692,7 @@
     "title": "Hoppers",
     "date": "2026-03-08",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-08&perfix=133838",
-    "runtime": null,
+    "runtime": 45,
     "showtime": 1300
   },
   {
@@ -700,7 +700,7 @@
     "title": "Youngblood",
     "date": "2026-03-08",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-08&perfix=133850",
-    "runtime": null,
+    "runtime": 24,
     "showtime": 1310
   },
   {
@@ -708,7 +708,7 @@
     "title": "Dreams in Nightmares",
     "date": "2026-03-08",
     "link": "https://paradiseonbloor.com/movies/dreams-in-nightmares-canadian-premiere/",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 1400
   },
   {
@@ -716,7 +716,7 @@
     "title": "Little Amélie or the Character of Rain",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/little-amelie-or-the-character-of-rain",
-    "runtime": null,
+    "runtime": 91,
     "showtime": 1500
   },
   {
@@ -724,7 +724,7 @@
     "date": "2026-03-08",
     "title": "Spectacle: Days of Heaven",
     "link": "https://www.foxtheatre.ca/movies/spectacle-days-of-heaven/",
-    "runtime": "94 mins",
+    "runtime": 94,
     "showtime": 1500
   },
   {
@@ -732,7 +732,7 @@
     "title": "2026 Oscar-Nominated Short Films: Animated",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-animated",
-    "runtime": null,
+    "runtime": 96,
     "showtime": 1515
   },
   {
@@ -740,7 +740,7 @@
     "title": "The Girls",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/the-girls-2",
-    "runtime": null,
+    "runtime": 130,
     "showtime": 1530
   },
   {
@@ -748,7 +748,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1545
   },
   {
@@ -756,7 +756,7 @@
     "title": "2026 Oscar Nominated Shorts: Documentary",
     "date": "2026-03-08",
     "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-documentary/",
-    "runtime": null,
+    "runtime": 153,
     "showtime": 1600
   },
   {
@@ -764,7 +764,7 @@
     "date": "2026-03-08",
     "title": "The Secret Agent",
     "link": "https://www.foxtheatre.ca/movies/the-secret-agent/",
-    "runtime": "158 mins",
+    "runtime": 158,
     "showtime": 1730
   },
   {
@@ -772,7 +772,7 @@
     "title": "The President's Cake",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/the-presidents-cake",
-    "runtime": null,
+    "runtime": 118,
     "showtime": 1800
   },
   {
@@ -780,7 +780,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1815
   },
   {
@@ -788,7 +788,7 @@
     "title": "Délits flagrants",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/delits-flagrants",
-    "runtime": null,
+    "runtime": 114,
     "showtime": 1830
   },
   {
@@ -796,7 +796,7 @@
     "title": "Marty Supreme",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/marty-supreme",
-    "runtime": null,
+    "runtime": 163,
     "showtime": 1900
   },
   {
@@ -804,7 +804,7 @@
     "title": "MARTY SUPREME - Presented on 70mm!",
     "date": "2026-03-08",
     "link": "https://revuecinema.ca/films/marty-supreme-presented-on-70mm/",
-    "runtime": null,
+    "runtime": 150,
     "showtime": 2000
   },
   {
@@ -812,7 +812,7 @@
     "title": "F1: The Movie",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/f1-the-movie",
-    "runtime": null,
+    "runtime": 168,
     "showtime": 2030
   },
   {
@@ -820,7 +820,7 @@
     "title": "Sirāt",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 2040
   },
   {
@@ -828,7 +828,7 @@
     "title": "2026 Oscar-Nominated Short Films: Live Action",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-live-action",
-    "runtime": null,
+    "runtime": 132,
     "showtime": 2045
   },
   {
@@ -836,7 +836,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-08",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 2100
   },
   {
@@ -844,7 +844,7 @@
     "date": "2026-03-08",
     "title": "Nirvanna the Band the Show the Movie",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "runtime": "100 mins",
+    "runtime": 100,
     "showtime": 2100
   },
   {
@@ -852,7 +852,7 @@
     "date": "2026-03-09",
     "title": "Hamnet",
     "link": "https://www.foxtheatre.ca/movies/hamnet/",
-    "runtime": "125 mins",
+    "runtime": 125,
     "showtime": 1600
   },
   {
@@ -860,7 +860,7 @@
     "title": "2026 Oscar Nominated Shorts: Documentary",
     "date": "2026-03-09",
     "link": "https://paradiseonbloor.com/programs/2026-oscar-nominated-shorts-documentary/",
-    "runtime": null,
+    "runtime": 157,
     "showtime": 1800
   },
   {
@@ -868,7 +868,7 @@
     "title": "The Perfect Date: BARBIE (2023)",
     "date": "2026-03-09",
     "link": "https://revuecinema.ca/films/the-perfect-date-barbie-2023/",
-    "runtime": null,
+    "runtime": 114,
     "showtime": 1830
   },
   {
@@ -876,7 +876,7 @@
     "title": "The Rider (2018)",
     "date": "2026-03-09",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-09&perfix=133874",
-    "runtime": null,
+    "runtime": 44,
     "showtime": 1830
   },
   {
@@ -884,7 +884,7 @@
     "title": "EPiC: Elvis Presley in Concert",
     "date": "2026-03-09",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-09&perfix=133866",
-    "runtime": null,
+    "runtime": 38,
     "showtime": 1835
   },
   {
@@ -892,7 +892,7 @@
     "title": "Lady Bird (2017)",
     "date": "2026-03-09",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-09&perfix=133868",
-    "runtime": null,
+    "runtime": 34,
     "showtime": 1840
   },
   {
@@ -900,7 +900,7 @@
     "title": "Enter the Dragon (1973)",
     "date": "2026-03-09",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-09&perfix=133862",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1845
   },
   {
@@ -908,7 +908,7 @@
     "title": "Nirvanna the Band the Show the Movie",
     "date": "2026-03-09",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-09&perfix=133878",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1850
   },
   {
@@ -916,7 +916,7 @@
     "title": "The Bride!",
     "date": "2026-03-09",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-09&perfix=133876",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1855
   },
   {
@@ -924,7 +924,7 @@
     "title": "Hoppers",
     "date": "2026-03-09",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-09&perfix=133864",
-    "runtime": null,
+    "runtime": 45,
     "showtime": 1900
   },
   {
@@ -932,7 +932,7 @@
     "title": "Youngblood",
     "date": "2026-03-09",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-09&perfix=133870",
-    "runtime": null,
+    "runtime": 24,
     "showtime": 1910
   },
   {
@@ -940,7 +940,7 @@
     "title": "Irma Vep",
     "date": "2026-03-09",
     "link": "https://paradiseonbloor.com/movies/irma-vep/",
-    "runtime": null,
+    "runtime": 99,
     "showtime": 2130
   },
   {
@@ -948,7 +948,7 @@
     "title": "2026 Oscar Nominated Shorts: Live Action",
     "date": "2026-03-09",
     "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-live-action/",
-    "runtime": null,
+    "runtime": 102,
     "showtime": 2130
   },
   {
@@ -956,7 +956,7 @@
     "title": "Dolores Claiborne",
     "date": "2026-03-10",
     "link": "https://paradiseonbloor.com/movies/dolores-claiborne/",
-    "runtime": null,
+    "runtime": 132,
     "showtime": 1800
   },
   {
@@ -964,7 +964,7 @@
     "title": "2026 Oscar-Nominated Short Films: Animated",
     "date": "2026-03-10",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-animated",
-    "runtime": null,
+    "runtime": 96,
     "showtime": 1800
   },
   {
@@ -972,7 +972,7 @@
     "title": "Revue Film Society: THE RED SHOES (1948)",
     "date": "2026-03-10",
     "link": "https://revuecinema.ca/films/revue-film-society-the-red-shoes-1948/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1830
   },
   {
@@ -980,7 +980,7 @@
     "title": "Monsieur Lazhar",
     "date": "2026-03-10",
     "link": "https://tiff.net/events/monsieur-lazhar",
-    "runtime": null,
+    "runtime": 114,
     "showtime": 1830
   },
   {
@@ -988,7 +988,7 @@
     "title": "The Rider (2018)",
     "date": "2026-03-10",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-10&perfix=133892",
-    "runtime": null,
+    "runtime": 44,
     "showtime": 1830
   },
   {
@@ -996,7 +996,7 @@
     "title": "EPiC: Elvis Presley in Concert",
     "date": "2026-03-10",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-10&perfix=133884",
-    "runtime": null,
+    "runtime": 38,
     "showtime": 1835
   },
   {
@@ -1004,7 +1004,7 @@
     "title": "Lady Bird (2017)",
     "date": "2026-03-10",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-10&perfix=133886",
-    "runtime": null,
+    "runtime": 34,
     "showtime": 1840
   },
   {
@@ -1012,7 +1012,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-10",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1845
   },
   {
@@ -1020,7 +1020,7 @@
     "title": "Enter the Dragon (1973)",
     "date": "2026-03-10",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-10&perfix=133880",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1845
   },
   {
@@ -1028,7 +1028,7 @@
     "title": "Nirvanna the Band the Show the Movie",
     "date": "2026-03-10",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-10&perfix=133896",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1850
   },
   {
@@ -1036,7 +1036,7 @@
     "title": "The Bride!",
     "date": "2026-03-10",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-10&perfix=133894",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1855
   },
   {
@@ -1044,7 +1044,7 @@
     "title": "Hoppers",
     "date": "2026-03-10",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-10&perfix=133882",
-    "runtime": null,
+    "runtime": 45,
     "showtime": 1900
   },
   {
@@ -1052,7 +1052,7 @@
     "title": "Youngblood",
     "date": "2026-03-10",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-10&perfix=133888",
-    "runtime": null,
+    "runtime": 24,
     "showtime": 1910
   },
   {
@@ -1060,7 +1060,7 @@
     "title": "The President's Cake",
     "date": "2026-03-10",
     "link": "https://tiff.net/events/the-presidents-cake",
-    "runtime": null,
+    "runtime": 118,
     "showtime": 2015
   },
   {
@@ -1068,7 +1068,7 @@
     "title": "Misery",
     "date": "2026-03-10",
     "link": "https://paradiseonbloor.com/movies/misery/",
-    "runtime": null,
+    "runtime": 107,
     "showtime": 2100
   },
   {
@@ -1076,7 +1076,7 @@
     "title": "2026 Oscar-Nominated Short Films: Live Action",
     "date": "2026-03-10",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-live-action",
-    "runtime": null,
+    "runtime": 132,
     "showtime": 2100
   },
   {
@@ -1084,7 +1084,7 @@
     "title": "2026 Oscar Nominated Shorts: Animation",
     "date": "2026-03-10",
     "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-animation/",
-    "runtime": null,
+    "runtime": 85,
     "showtime": 2130
   },
   {
@@ -1092,7 +1092,7 @@
     "title": "Montreal, My Beautiful",
     "date": "2026-03-10",
     "link": "https://tiff.net/events/montreal-my-beautiful",
-    "runtime": null,
+    "runtime": 131,
     "showtime": 2130
   },
   {
@@ -1100,7 +1100,7 @@
     "title": "Sirāt",
     "date": "2026-03-10",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 2135
   },
   {
@@ -1108,7 +1108,7 @@
     "title": "The President's Cake",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/the-presidents-cake",
-    "runtime": null,
+    "runtime": 118,
     "showtime": 1545
   },
   {
@@ -1116,7 +1116,7 @@
     "date": "2026-03-11",
     "title": "Hamnet",
     "link": "https://www.foxtheatre.ca/movies/hamnet/",
-    "runtime": "125 mins",
+    "runtime": 125,
     "showtime": 1545
   },
   {
@@ -1124,7 +1124,7 @@
     "title": "Sirāt",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 1600
   },
   {
@@ -1132,7 +1132,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1615
   },
   {
@@ -1140,7 +1140,7 @@
     "title": "2026 Oscar-Nominated Short Films: Documentary",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-documentary",
-    "runtime": null,
+    "runtime": 183,
     "showtime": 1630
   },
   {
@@ -1148,7 +1148,7 @@
     "title": "MARTY SUPREME - Presented on 70mm!",
     "date": "2026-03-11",
     "link": "https://revuecinema.ca/films/marty-supreme-presented-on-70mm/",
-    "runtime": null,
+    "runtime": 150,
     "showtime": 1800
   },
   {
@@ -1156,7 +1156,7 @@
     "title": "2026 Oscar-Nominated Short Films: Animated",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-animated",
-    "runtime": null,
+    "runtime": 96,
     "showtime": 1815
   },
   {
@@ -1164,7 +1164,7 @@
     "title": "China Town with Lucy Raven",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/china-town-with-lucy-raven",
-    "runtime": null,
+    "runtime": 111,
     "showtime": 1830
   },
   {
@@ -1172,7 +1172,7 @@
     "title": "The Rider (2018)",
     "date": "2026-03-11",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-11&perfix=133910",
-    "runtime": null,
+    "runtime": 44,
     "showtime": 1830
   },
   {
@@ -1180,7 +1180,7 @@
     "title": "EPiC: Elvis Presley in Concert",
     "date": "2026-03-11",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-11&perfix=133902",
-    "runtime": null,
+    "runtime": 38,
     "showtime": 1835
   },
   {
@@ -1188,7 +1188,7 @@
     "title": "Lady Bird (2017)",
     "date": "2026-03-11",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-11&perfix=133904",
-    "runtime": null,
+    "runtime": 34,
     "showtime": 1840
   },
   {
@@ -1196,7 +1196,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1845
   },
   {
@@ -1204,7 +1204,7 @@
     "title": "Enter the Dragon (1973)",
     "date": "2026-03-11",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-11&perfix=133898",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1845
   },
   {
@@ -1212,7 +1212,7 @@
     "date": "2026-03-11",
     "title": "Spectacle: Days of Heaven",
     "link": "https://www.foxtheatre.ca/movies/spectacle-days-of-heaven/",
-    "runtime": "94 mins",
+    "runtime": 94,
     "showtime": 1845
   },
   {
@@ -1220,7 +1220,7 @@
     "title": "Nirvanna the Band the Show the Movie",
     "date": "2026-03-11",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-11&perfix=133914",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1850
   },
   {
@@ -1228,7 +1228,7 @@
     "title": "The Bride!",
     "date": "2026-03-11",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-11&perfix=133912",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1855
   },
   {
@@ -1236,7 +1236,7 @@
     "title": "Hoppers",
     "date": "2026-03-11",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-11&perfix=133900",
-    "runtime": null,
+    "runtime": 45,
     "showtime": 1900
   },
   {
@@ -1244,7 +1244,7 @@
     "title": "Youngblood",
     "date": "2026-03-11",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-11&perfix=133906",
-    "runtime": null,
+    "runtime": 24,
     "showtime": 1910
   },
   {
@@ -1252,7 +1252,7 @@
     "title": "Cabaret",
     "date": "2026-03-11",
     "link": "https://paradiseonbloor.com/movies/cabaret/",
-    "runtime": null,
+    "runtime": 124,
     "showtime": 1930
   },
   {
@@ -1260,7 +1260,7 @@
     "title": "Marty Supreme",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/marty-supreme",
-    "runtime": null,
+    "runtime": 163,
     "showtime": 1930
   },
   {
@@ -1268,7 +1268,7 @@
     "title": "Montreal, My Beautiful",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/montreal-my-beautiful",
-    "runtime": null,
+    "runtime": 131,
     "showtime": 2015
   },
   {
@@ -1276,7 +1276,7 @@
     "title": "2026 Oscar-Nominated Short Films: Live Action",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-live-action",
-    "runtime": null,
+    "runtime": 132,
     "showtime": 2030
   },
   {
@@ -1284,7 +1284,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 2100
   },
   {
@@ -1292,7 +1292,7 @@
     "date": "2026-03-11",
     "title": "Nirvanna the Band the Show the Movie",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "runtime": "100 mins",
+    "runtime": 100,
     "showtime": 2115
   },
   {
@@ -1300,7 +1300,7 @@
     "title": "2026 Oscar Nominated Shorts: Live Action",
     "date": "2026-03-11",
     "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-live-action/",
-    "runtime": null,
+    "runtime": 102,
     "showtime": 2130
   },
   {
@@ -1308,7 +1308,7 @@
     "title": "Sirāt",
     "date": "2026-03-11",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 2130
   },
   {
@@ -1316,7 +1316,7 @@
     "title": "Montreal, My Beautiful",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/montreal-my-beautiful",
-    "runtime": null,
+    "runtime": 131,
     "showtime": 1545
   },
   {
@@ -1324,7 +1324,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1600
   },
   {
@@ -1332,7 +1332,7 @@
     "title": "The President's Cake",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/the-presidents-cake",
-    "runtime": null,
+    "runtime": 118,
     "showtime": 1615
   },
   {
@@ -1340,7 +1340,7 @@
     "title": "Sirāt",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 1630
   },
   {
@@ -1348,7 +1348,7 @@
     "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
     "date": "2026-03-12",
     "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
-    "runtime": null,
+    "runtime": 60,
     "showtime": 1830
   },
   {
@@ -1356,7 +1356,7 @@
     "title": "The Beirut Trilogy",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/the-beirut-trilogy",
-    "runtime": null,
+    "runtime": 149,
     "showtime": 1830
   },
   {
@@ -1364,7 +1364,7 @@
     "title": "The Rider (2018)",
     "date": "2026-03-12",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-12&perfix=133928",
-    "runtime": null,
+    "runtime": 44,
     "showtime": 1830
   },
   {
@@ -1372,7 +1372,7 @@
     "title": "2026 Oscar-Nominated Short Films: Animated",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-animated",
-    "runtime": null,
+    "runtime": 96,
     "showtime": 1835
   },
   {
@@ -1380,7 +1380,7 @@
     "title": "Lady Bird (2017)",
     "date": "2026-03-12",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-12&perfix=133922",
-    "runtime": null,
+    "runtime": 34,
     "showtime": 1840
   },
   {
@@ -1388,7 +1388,7 @@
     "title": "We Really Like Her: MAMMA MIA! (2008)",
     "date": "2026-03-12",
     "link": "https://revuecinema.ca/films/we-really-like-her-mamma-mia-2008/",
-    "runtime": null,
+    "runtime": 108,
     "showtime": 1845
   },
   {
@@ -1396,7 +1396,7 @@
     "title": "Montreal, My Beautiful",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/montreal-my-beautiful",
-    "runtime": null,
+    "runtime": 131,
     "showtime": 1845
   },
   {
@@ -1404,7 +1404,7 @@
     "title": "Enter the Dragon (1973)",
     "date": "2026-03-12",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-12&perfix=133916",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1845
   },
   {
@@ -1412,7 +1412,7 @@
     "title": "Nirvanna the Band the Show the Movie",
     "date": "2026-03-12",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-12&perfix=133932",
-    "runtime": null,
+    "runtime": 42,
     "showtime": 1850
   },
   {
@@ -1420,7 +1420,7 @@
     "title": "The Bride!",
     "date": "2026-03-12",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-12&perfix=133930",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1855
   },
   {
@@ -1428,7 +1428,7 @@
     "title": "Hoppers",
     "date": "2026-03-12",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-12&perfix=133918",
-    "runtime": null,
+    "runtime": 45,
     "showtime": 1900
   },
   {
@@ -1436,7 +1436,7 @@
     "title": "Youngblood",
     "date": "2026-03-12",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-12&perfix=133924",
-    "runtime": null,
+    "runtime": 24,
     "showtime": 1910
   },
   {
@@ -1444,7 +1444,7 @@
     "title": "Sinners",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/sinners",
-    "runtime": null,
+    "runtime": 149,
     "showtime": 1915
   },
   {
@@ -1452,7 +1452,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1930
   },
   {
@@ -1460,7 +1460,7 @@
     "title": "Candlelight: A Tribute to Frank Sinatra & Nat King Cole",
     "date": "2026-03-12",
     "link": "https://paradiseonbloor.com/special_events/candlelight-a-tribute-to-frank-sinatra-nat-king-cole/",
-    "runtime": null,
+    "runtime": 60,
     "showtime": 2030
   },
   {
@@ -1468,7 +1468,7 @@
     "title": "2026 Oscar-Nominated Short Films: Live Action",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/2026-oscar-nominated-short-films-live-action",
-    "runtime": null,
+    "runtime": 132,
     "showtime": 2045
   },
   {
@@ -1476,7 +1476,7 @@
     "title": "MARTY SUPREME - Presented on 70mm!",
     "date": "2026-03-12",
     "link": "https://revuecinema.ca/films/marty-supreme-presented-on-70mm/",
-    "runtime": null,
+    "runtime": 150,
     "showtime": 2130
   },
   {
@@ -1484,7 +1484,7 @@
     "title": "The President's Cake",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/the-presidents-cake",
-    "runtime": null,
+    "runtime": 118,
     "showtime": 2130
   },
   {
@@ -1492,7 +1492,7 @@
     "title": "EPiC: Elvis Presley in Concert",
     "date": "2026-03-12",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-12&perfix=133921",
-    "runtime": null,
+    "runtime": 38,
     "showtime": 2130
   },
   {
@@ -1500,7 +1500,7 @@
     "date": "2026-03-12",
     "title": "Nirvanna the Band the Show the Movie",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "runtime": "100 mins",
+    "runtime": 100,
     "showtime": 2130
   },
   {
@@ -1508,7 +1508,7 @@
     "title": "Sirāt",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/sirat",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 2145
   },
   {
@@ -1516,7 +1516,7 @@
     "title": "Peaky Blinders: The Immortal Man",
     "date": "2026-03-12",
     "link": "https://tiff.net/events/peaky-blinders-the-immortal-man",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 2200
   },
   {
@@ -1524,7 +1524,7 @@
     "title": "2026 Oscar Nominated Shorts: Documentary",
     "date": "2026-03-13",
     "link": "https://revuecinema.ca/films/2026-oscar-nominated-shorts-documentary/",
-    "runtime": null,
+    "runtime": 153,
     "showtime": 1400
   },
   {
@@ -1532,7 +1532,7 @@
     "date": "2026-03-13",
     "title": "A Poet",
     "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "runtime": "123 mins",
+    "runtime": 123,
     "showtime": 1500
   },
   {
@@ -1540,7 +1540,7 @@
     "date": "2026-03-13",
     "title": "Kokuho",
     "link": "https://www.foxtheatre.ca/movies/kokuho/",
-    "runtime": "174 mins",
+    "runtime": 174,
     "showtime": 1800
   },
   {
@@ -1548,7 +1548,7 @@
     "title": "Space Cadet",
     "date": "2026-03-13",
     "link": "https://tiff.net/events/space-cadet",
-    "runtime": null,
+    "runtime": 99,
     "showtime": 1820
   },
   {
@@ -1556,7 +1556,7 @@
     "title": "The Razor's Edge preceded by Children of War",
     "date": "2026-03-13",
     "link": "https://tiff.net/events/the-razors-edge-preceded-by-children-of-war",
-    "runtime": null,
+    "runtime": 137,
     "showtime": 1830
   },
   {
@@ -1564,7 +1564,7 @@
     "title": "The Worst Person in the World (2021)",
     "date": "2026-03-13",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-13&perfix=133974",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1830
   },
   {
@@ -1572,7 +1572,7 @@
     "title": "Shaolin Soccer (2001)",
     "date": "2026-03-13",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-13&perfix=133972",
-    "runtime": null,
+    "runtime": 53,
     "showtime": 1840
   },
   {
@@ -1580,7 +1580,7 @@
     "title": "Superhero Holiday After Dark: ROBOCOP (1987) - New 4K Restoration!",
     "date": "2026-03-13",
     "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-robocop-1987-new-4k-restoration/",
-    "runtime": null,
+    "runtime": 102,
     "showtime": 1845
   },
   {
@@ -1588,7 +1588,7 @@
     "title": "Josie and the Pussycats",
     "date": "2026-03-13",
     "link": "https://paradiseonbloor.com/movies/josie-and-the-pussycats/",
-    "runtime": null,
+    "runtime": 98,
     "showtime": 1900
   },
   {
@@ -1596,7 +1596,7 @@
     "title": "Friday the 13th (1980)",
     "date": "2026-03-13",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-13&perfix=133994",
-    "runtime": null,
+    "runtime": 35,
     "showtime": 1910
   },
   {
@@ -1604,7 +1604,7 @@
     "title": "The Love That Remains",
     "date": "2026-03-13",
     "link": "https://tiff.net/events/the-love-that-remains",
-    "runtime": null,
+    "runtime": 122,
     "showtime": 2015
   },
   {
@@ -1612,7 +1612,7 @@
     "title": "The Great Arch",
     "date": "2026-03-13",
     "link": "https://tiff.net/events/the-great-arch",
-    "runtime": null,
+    "runtime": 117,
     "showtime": 2030
   },
   {
@@ -1620,7 +1620,7 @@
     "title": "Drunken Cinema: FRIDAY THE 13TH PART III in 3D! - Presented on 35mm! ( Feat. Live Performance by Blood Opera!)",
     "date": "2026-03-13",
     "link": "https://revuecinema.ca/films/drunken-cinema-friday-the-13th-part-iii-in-3d-presented-on-35mm-feat-live-performance-by-blood-opera/",
-    "runtime": null,
+    "runtime": 95,
     "showtime": 2130
   },
   {
@@ -1628,7 +1628,7 @@
     "date": "2026-03-13",
     "title": "Nirvanna the Band the Show the Movie",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "runtime": "100 mins",
+    "runtime": 100,
     "showtime": 2145
   },
   {
@@ -1636,7 +1636,7 @@
     "title": "Hero (2002)",
     "date": "2026-03-13",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-13&perfix=133971",
-    "runtime": null,
+    "runtime": 39,
     "showtime": 2150
   },
   {
@@ -1644,7 +1644,7 @@
     "title": "Revue Event: TWIN PEAKS - Season 1 (episodes 2 - 4)",
     "date": "2026-03-14",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-1-episodes-2-4/",
-    "runtime": null,
+    "runtime": 142,
     "showtime": 1200
   },
   {
@@ -1652,7 +1652,7 @@
     "title": "The Worst Person in the World (2021)",
     "date": "2026-03-14",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-14&perfix=133942",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1230
   },
   {
@@ -1660,7 +1660,7 @@
     "title": "Shaolin Soccer (2001)",
     "date": "2026-03-14",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-14&perfix=133938",
-    "runtime": null,
+    "runtime": 53,
     "showtime": 1240
   },
   {
@@ -1668,7 +1668,7 @@
     "date": "2026-03-14",
     "title": "A Poet",
     "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "runtime": "123 mins",
+    "runtime": 123,
     "showtime": 1245
   },
   {
@@ -1676,7 +1676,7 @@
     "title": "Hero (2002)",
     "date": "2026-03-14",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-14&perfix=133934",
-    "runtime": null,
+    "runtime": 39,
     "showtime": 1250
   },
   {
@@ -1684,7 +1684,7 @@
     "title": "Sing Along: Encanto",
     "date": "2026-03-14",
     "link": "https://tiff.net/events/sing-along-encanto",
-    "runtime": null,
+    "runtime": 140,
     "showtime": 1300
   },
   {
@@ -1692,7 +1692,7 @@
     "title": "A Star Is Born",
     "date": "2026-03-14",
     "link": "https://paradiseonbloor.com/movies/a-star-is-born/",
-    "runtime": null,
+    "runtime": 182,
     "showtime": 1400
   },
   {
@@ -1700,7 +1700,7 @@
     "title": "Jocelyne Saab: Utopia Lost",
     "date": "2026-03-14",
     "link": "https://tiff.net/events/jocelyne-saab-utopia-lost",
-    "runtime": null,
+    "runtime": 130,
     "showtime": 1530
   },
   {
@@ -1708,7 +1708,7 @@
     "date": "2026-03-14",
     "title": "Kokuho",
     "link": "https://www.foxtheatre.ca/movies/kokuho/",
-    "runtime": "174 mins",
+    "runtime": 174,
     "showtime": 1540
   },
   {
@@ -1716,7 +1716,7 @@
     "title": "Superhero Holiday:  TEENAGE MUTANT NINJA TURTLES (1990) - Pizza Party!",
     "date": "2026-03-14",
     "link": "https://revuecinema.ca/films/tmnt/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1600
   },
   {
@@ -1724,7 +1724,7 @@
     "title": "The Great Arch",
     "date": "2026-03-14",
     "link": "https://tiff.net/events/the-great-arch",
-    "runtime": null,
+    "runtime": 117,
     "showtime": 1600
   },
   {
@@ -1732,7 +1732,7 @@
     "title": "Inside Out Run it Back Double Feature: Battle of the Sexes & Challengers",
     "date": "2026-03-14",
     "link": "https://paradiseonbloor.com/programs/inside-out-run-it-back-double-feature-battle-of-the-sexes-challengers/",
-    "runtime": null,
+    "runtime": 300,
     "showtime": 1830
   },
   {
@@ -1740,7 +1740,7 @@
     "title": "Stompbox: CROSSROADS (1986) - With Live Guitar Duel!",
     "date": "2026-03-14",
     "link": "https://revuecinema.ca/films/stompbox-crossroads-1986-with-live-guitar-duel/",
-    "runtime": null,
+    "runtime": 99,
     "showtime": 1830
   },
   {
@@ -1748,7 +1748,7 @@
     "title": "The Vanishing Point with Bani Khoshnoudi",
     "date": "2026-03-14",
     "link": "https://tiff.net/events/the-vanishing-point-with-bani-khoshnoudi",
-    "runtime": null,
+    "runtime": 149,
     "showtime": 1830
   },
   {
@@ -1756,7 +1756,7 @@
     "title": "Space Cadet",
     "date": "2026-03-14",
     "link": "https://tiff.net/events/space-cadet",
-    "runtime": null,
+    "runtime": 99,
     "showtime": 1835
   },
   {
@@ -1764,7 +1764,7 @@
     "date": "2026-03-14",
     "title": "2026 Oscar Nominated Short Films: Animated",
     "link": "https://www.foxtheatre.ca/movies/2026-oscar-nominated-short-films-animated/",
-    "runtime": "80 mins",
+    "runtime": 80,
     "showtime": 1920
   },
   {
@@ -1772,7 +1772,7 @@
     "title": "The Love That Remains",
     "date": "2026-03-14",
     "link": "https://tiff.net/events/the-love-that-remains",
-    "runtime": null,
+    "runtime": 122,
     "showtime": 2030
   },
   {
@@ -1780,7 +1780,7 @@
     "title": "Superhero Holiday After Dark: SUCKER PUNCH - 15th Anniversary Screening!",
     "date": "2026-03-14",
     "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-sucker-punch-15th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 2130
   },
   {
@@ -1788,7 +1788,7 @@
     "date": "2026-03-14",
     "title": "Nirvanna the Band the Show the Movie",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "runtime": "100 mins",
+    "runtime": 100,
     "showtime": 2130
   },
   {
@@ -1796,7 +1796,7 @@
     "title": "Inherent Vice",
     "date": "2026-03-15",
     "link": "https://tiff.net/events/inherent-vice",
-    "runtime": null,
+    "runtime": 153,
     "showtime": 1130
   },
   {
@@ -1804,7 +1804,7 @@
     "date": "2026-03-15",
     "title": "One Battle After Another",
     "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
-    "runtime": "162 mins",
+    "runtime": 162,
     "showtime": 1130
   },
   {
@@ -1812,7 +1812,7 @@
     "title": "Superhero Holiday: DICK TRACY (1990) - Presented on 35mm!",
     "date": "2026-03-15",
     "link": "https://revuecinema.ca/films/superhero-holiday-dick-tracy-1990-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 105,
     "showtime": 1200
   },
   {
@@ -1820,7 +1820,7 @@
     "title": "The Worst Person in the World (2021)",
     "date": "2026-03-15",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-15&perfix=133954",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1230
   },
   {
@@ -1828,7 +1828,7 @@
     "title": "Shaolin Soccer (2001)",
     "date": "2026-03-15",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-15&perfix=133950",
-    "runtime": null,
+    "runtime": 53,
     "showtime": 1240
   },
   {
@@ -1836,7 +1836,7 @@
     "title": "Hero (2002)",
     "date": "2026-03-15",
     "link": "https://omniwebticketing6.com/imaginecinemas/carlton?schdate=2026-03-15&perfix=133946",
-    "runtime": null,
+    "runtime": 39,
     "showtime": 1250
   },
   {
@@ -1844,7 +1844,7 @@
     "title": "Space Cadet",
     "date": "2026-03-15",
     "link": "https://tiff.net/events/space-cadet",
-    "runtime": null,
+    "runtime": 99,
     "showtime": 1300
   },
   {
@@ -1852,7 +1852,7 @@
     "title": "Palestine and \"The Fatah Land\"",
     "date": "2026-03-15",
     "link": "https://tiff.net/events/palestine-and-the-fatah-land",
-    "runtime": null,
+    "runtime": 76,
     "showtime": 1430
   },
   {
@@ -1860,7 +1860,7 @@
     "title": "Apparatus Theory: SYMBIOPSYCHOTAXIPLASM: TAKE ONE (1968)",
     "date": "2026-03-15",
     "link": "https://revuecinema.ca/films/apparatus-theory-symbiopsychotaxiplasm-take-one-1968/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1500
   },
   {
@@ -1868,7 +1868,7 @@
     "title": "The Love That Remains",
     "date": "2026-03-15",
     "link": "https://tiff.net/events/the-love-that-remains",
-    "runtime": null,
+    "runtime": 122,
     "showtime": 1530
   },
   {
@@ -1876,7 +1876,7 @@
     "title": "TIFF Oscars Celebration",
     "date": "2026-03-15",
     "link": "https://tiff.net/events/tiff-oscars-celebration",
-    "runtime": null,
+    "runtime": 630,
     "showtime": 1730
   },
   {
@@ -1884,7 +1884,7 @@
     "title": "The Oscars Live At The Revue! (Free Event!)",
     "date": "2026-03-15",
     "link": "https://revuecinema.ca/films/the-oscars-live-at-the-revue-free-event/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1800
   },
   {
@@ -1892,7 +1892,7 @@
     "title": "The Great Arch",
     "date": "2026-03-15",
     "link": "https://tiff.net/events/the-great-arch",
-    "runtime": null,
+    "runtime": 117,
     "showtime": 1830
   },
   {
@@ -1900,7 +1900,7 @@
     "title": "Oscars in Paradise",
     "date": "2026-03-15",
     "link": "https://paradiseonbloor.com/special_events/oscars-in-paradise/",
-    "runtime": null,
+    "runtime": 210,
     "showtime": 1900
   },
   {
@@ -1908,7 +1908,7 @@
     "title": "TIFF Oscars Member Watch Party",
     "date": "2026-03-15",
     "link": "https://tiff.net/events/tiff-oscars-member-watch-party",
-    "runtime": null,
+    "runtime": 180,
     "showtime": 1900
   },
   {
@@ -1916,7 +1916,7 @@
     "date": "2026-03-16",
     "title": "Space Cadet",
     "link": "https://www.foxtheatre.ca/movies/space-cadet/",
-    "runtime": "86 mins",
+    "runtime": 86,
     "showtime": 1230
   },
   {
@@ -1924,7 +1924,7 @@
     "title": "Superhero Holiday: PAW PATROL: THE MIGHTY MOVIE (2023)",
     "date": "2026-03-16",
     "link": "https://revuecinema.ca/films/superhero-holiday-paw-patrol-the-mighty-movie-2023/",
-    "runtime": null,
+    "runtime": 88,
     "showtime": 1400
   },
   {
@@ -1932,7 +1932,7 @@
     "title": "ARCO",
     "date": "2026-03-16",
     "link": "https://revuecinema.ca/films/arco/",
-    "runtime": null,
+    "runtime": 89,
     "showtime": 1630
   },
   {
@@ -1940,7 +1940,7 @@
     "title": "Sirāt",
     "date": "2026-03-16",
     "link": "https://paradiseonbloor.com/movies/sirat/",
-    "runtime": null,
+    "runtime": 115,
     "showtime": 1745
   },
   {
@@ -1948,7 +1948,7 @@
     "title": "Sirāt",
     "date": "2026-03-16",
     "link": "https://paradiseonbloor.com/movies/sirat/",
-    "runtime": null,
+    "runtime": 115,
     "showtime": 1800
   },
   {
@@ -1956,7 +1956,7 @@
     "title": "Free Members-Only Screening: SPRING BREAKERS (2013)",
     "date": "2026-03-16",
     "link": "https://revuecinema.ca/films/free-members-only-screening-spring-breakers-2013/",
-    "runtime": null,
+    "runtime": 94,
     "showtime": 1845
   },
   {
@@ -1964,7 +1964,7 @@
     "title": "Opening Night",
     "date": "2026-03-16",
     "link": "https://paradiseonbloor.com/movies/opening-night/",
-    "runtime": null,
+    "runtime": 144,
     "showtime": 2030
   },
   {
@@ -1972,7 +1972,7 @@
     "title": "Superhero Holiday After Dark: BLANKMAN (1994)  - Presented on 35mm!",
     "date": "2026-03-16",
     "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-blankman-1994-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 96,
     "showtime": 2130
   },
   {
@@ -1980,7 +1980,7 @@
     "date": "2026-03-17",
     "title": "Space Cadet",
     "link": "https://www.foxtheatre.ca/movies/space-cadet/",
-    "runtime": "86 mins",
+    "runtime": 86,
     "showtime": 1300
   },
   {
@@ -1988,7 +1988,7 @@
     "date": "2026-03-17",
     "title": "A Poet",
     "link": "https://www.foxtheatre.ca/movies/a-poet/",
-    "runtime": "123 mins",
+    "runtime": 123,
     "showtime": 1520
   },
   {
@@ -1996,7 +1996,7 @@
     "title": "ARCO",
     "date": "2026-03-17",
     "link": "https://revuecinema.ca/films/arco/",
-    "runtime": null,
+    "runtime": 89,
     "showtime": 1600
   },
   {
@@ -2004,7 +2004,7 @@
     "date": "2026-03-17",
     "title": "Nirvanna the Band the Show the Movie",
     "link": "https://www.foxtheatre.ca/movies/nirvanna-the-band-the-show-the-movie/",
-    "runtime": "100 mins",
+    "runtime": 100,
     "showtime": 1815
   },
   {
@@ -2012,7 +2012,7 @@
     "title": "San Clemente",
     "date": "2026-03-17",
     "link": "https://tiff.net/events/san-clemente",
-    "runtime": null,
+    "runtime": 108,
     "showtime": 1830
   },
   {
@@ -2020,7 +2020,7 @@
     "title": "Superhero Holiday: X-MEN (2000)",
     "date": "2026-03-17",
     "link": "https://revuecinema.ca/films/superhero-holiday-x-men-2000/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1845
   },
   {
@@ -2028,7 +2028,7 @@
     "date": "2026-03-17",
     "title": "One Battle After Another",
     "link": "https://www.foxtheatre.ca/movies/one-battle-after-another/",
-    "runtime": "162 mins",
+    "runtime": 162,
     "showtime": 2045
   },
   {
@@ -2036,7 +2036,7 @@
     "title": "Millennium Actress",
     "date": "2026-03-17",
     "link": "https://paradiseonbloor.com/movies/millennium-actress/",
-    "runtime": null,
+    "runtime": 87,
     "showtime": 2100
   },
   {
@@ -2044,7 +2044,7 @@
     "title": "Superhero Holiday After Dark: BRIGHTBURN (2019)",
     "date": "2026-03-17",
     "link": "https://revuecinema.ca/films/superhero-holiday-after-dark-brightburn-2019/",
-    "runtime": null,
+    "runtime": 91,
     "showtime": 2130
   },
   {
@@ -2052,7 +2052,7 @@
     "date": "2026-03-18",
     "title": "Space Cadet",
     "link": "https://www.foxtheatre.ca/movies/space-cadet/",
-    "runtime": "86 mins",
+    "runtime": 86,
     "showtime": 1230
   },
   {
@@ -2060,7 +2060,7 @@
     "title": "The Bloor West Food Bank: PADDINGTON 3 u2013   March Break Fundraiser Screening!",
     "date": "2026-03-18",
     "link": "https://revuecinema.ca/films/the-bloor-west-food-bank-paddington-3-march-break-fundraiser-screening/",
-    "runtime": null,
+    "runtime": 106,
     "showtime": 1300
   },
   {
@@ -2068,7 +2068,7 @@
     "title": "ARCO",
     "date": "2026-03-18",
     "link": "https://revuecinema.ca/films/arco/",
-    "runtime": null,
+    "runtime": 89,
     "showtime": 1600
   },
   {
@@ -2076,7 +2076,7 @@
     "title": "How to Craft a Standout Submission and Make the Most of Creators’ Labs at TIFF: The Market",
     "date": "2026-03-18",
     "link": "https://tiff.net/events/how-to-craft-a-standout-submission-and-make-the-most-of-creators-labs-at-tiff-the-market",
-    "runtime": null,
+    "runtime": 60,
     "showtime": 1700
   },
   {
@@ -2084,7 +2084,7 @@
     "title": "T.O. Short 2026: Shorts 1",
     "date": "2026-03-18",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-shorts-1/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 1800
   },
   {
@@ -2092,7 +2092,7 @@
     "title": "The Black Nerds: BOYZ N THE HOOD - 35th Anniversary Screening!",
     "date": "2026-03-18",
     "link": "https://revuecinema.ca/films/the-black-nerds-boyz-n-the-hood-35th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 112,
     "showtime": 1830
   },
   {
@@ -2100,7 +2100,7 @@
     "title": "Space Cadet",
     "date": "2026-03-18",
     "link": "https://tiff.net/events/space-cadet",
-    "runtime": null,
+    "runtime": 99,
     "showtime": 1830
   },
   {
@@ -2108,7 +2108,7 @@
     "title": "Songs My Brothers Taught Me",
     "date": "2026-03-18",
     "link": "https://tiff.net/events/songs-my-brothers-taught-me",
-    "runtime": null,
+    "runtime": 114,
     "showtime": 1900
   },
   {
@@ -2116,7 +2116,7 @@
     "title": "T.O. Short 2026: Shorts 2",
     "date": "2026-03-18",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-shorts-2/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 2000
   },
   {
@@ -2124,7 +2124,7 @@
     "title": "The Great Arch",
     "date": "2026-03-18",
     "link": "https://tiff.net/events/the-great-arch",
-    "runtime": null,
+    "runtime": 117,
     "showtime": 2040
   },
   {
@@ -2132,7 +2132,7 @@
     "title": "Psych-Out Cinema: THE DARK SIDE OF OZ",
     "date": "2026-03-18",
     "link": "https://revuecinema.ca/films/psych-out-cinema-the-dark-side-of-oz/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -2140,7 +2140,7 @@
     "title": "March Break Screening: The SpongeBob Movie: Search for SquarePants",
     "date": "2026-03-19",
     "link": "https://revuecinema.ca/films/march-break-screening-the-spongebob-movie-search-for-squarepants/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1300
   },
   {
@@ -2148,7 +2148,7 @@
     "date": "2026-03-19",
     "title": "Space Cadet",
     "link": "https://www.foxtheatre.ca/movies/space-cadet/",
-    "runtime": "86 mins",
+    "runtime": 86,
     "showtime": 1300
   },
   {
@@ -2156,7 +2156,7 @@
     "title": "Superhero Holiday: DICK TRACY (1990) - Presented on 35mm!",
     "date": "2026-03-19",
     "link": "https://revuecinema.ca/films/superhero-holiday-dick-tracy-1990-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 105,
     "showtime": 1530
   },
   {
@@ -2164,7 +2164,7 @@
     "title": "T.O. Shorts 2026: Shorts 3",
     "date": "2026-03-19",
     "link": "https://paradiseonbloor.com/movies/t-o-shorts-2026-shorts-3/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 1800
   },
   {
@@ -2172,7 +2172,7 @@
     "title": "Les révolutionnaires du Tchad preceded by Tibesti Too",
     "date": "2026-03-19",
     "link": "https://tiff.net/events/les-revolutionnaires-du-tchad-preceded-by-tibesti-too",
-    "runtime": null,
+    "runtime": 101,
     "showtime": 1830
   },
   {
@@ -2180,7 +2180,7 @@
     "title": "Paid In Sweat: BEST IN SHOW (2000)",
     "date": "2026-03-19",
     "link": "https://revuecinema.ca/films/paid-in-sweat-best-in-show-2000/",
-    "runtime": null,
+    "runtime": 90,
     "showtime": 1845
   },
   {
@@ -2188,7 +2188,7 @@
     "title": "Idiotka",
     "date": "2026-03-19",
     "link": "https://tiff.net/events/idiotka",
-    "runtime": null,
+    "runtime": 95,
     "showtime": 1900
   },
   {
@@ -2196,7 +2196,7 @@
     "title": "T.O. Short 2026: Documentaries 1",
     "date": "2026-03-19",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-documentaries-1/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 2000
   },
   {
@@ -2204,7 +2204,7 @@
     "title": "The Love That Remains",
     "date": "2026-03-19",
     "link": "https://tiff.net/events/the-love-that-remains",
-    "runtime": null,
+    "runtime": 122,
     "showtime": 2030
   },
   {
@@ -2212,7 +2212,7 @@
     "title": "Nightmare Alley: NADJA (1995) - New 4K Restoration of Director's Cut!",
     "date": "2026-03-19",
     "link": "https://revuecinema.ca/films/nightmare-alley-nadja-1995-new-4k-restoration-of-directors-cut/",
-    "runtime": null,
+    "runtime": 93,
     "showtime": 2130
   },
   {
@@ -2220,7 +2220,7 @@
     "title": "T.O. Short 2026: Experimental Shorts",
     "date": "2026-03-19",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-experimental-shorts/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 2200
   },
   {
@@ -2228,7 +2228,7 @@
     "date": "2026-03-20",
     "title": "Space Cadet",
     "link": "https://www.foxtheatre.ca/movies/space-cadet/",
-    "runtime": "86 mins",
+    "runtime": 86,
     "showtime": 1320
   },
   {
@@ -2236,7 +2236,7 @@
     "title": "March Break Screening: The SpongeBob Movie: Search for SquarePants",
     "date": "2026-03-20",
     "link": "https://revuecinema.ca/films/march-break-screening-the-spongebob-movie-search-for-squarepants/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1600
   },
   {
@@ -2244,7 +2244,7 @@
     "title": "T.O. Short 2026: Shorts 4",
     "date": "2026-03-20",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-shorts-4/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 1800
   },
   {
@@ -2252,7 +2252,7 @@
     "title": "Superhero Holiday: SUPERMAN II: THE RICHARD DONNER CUT",
     "date": "2026-03-20",
     "link": "https://revuecinema.ca/films/superhero-holiday-superman-ii-the-richard-donner-cut/",
-    "runtime": null,
+    "runtime": 116,
     "showtime": 1830
   },
   {
@@ -2260,7 +2260,7 @@
     "title": "Once Upon a Time in Beirut",
     "date": "2026-03-20",
     "link": "https://tiff.net/events/once-upon-a-time-in-beirut",
-    "runtime": null,
+    "runtime": 109,
     "showtime": 1830
   },
   {
@@ -2268,7 +2268,7 @@
     "title": "T.O. Short 2026: Documentaries 2",
     "date": "2026-03-20",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-documentaries-2/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 2000
   },
   {
@@ -2276,7 +2276,7 @@
     "title": "Neon Dreams: LAST EMBRACE (1979)",
     "date": "2026-03-20",
     "link": "https://revuecinema.ca/films/neon-dreams-last-embrace-1979/",
-    "runtime": null,
+    "runtime": 102,
     "showtime": 2130
   },
   {
@@ -2284,7 +2284,7 @@
     "date": "2026-03-20",
     "title": "Secretary",
     "link": "https://www.foxtheatre.ca/movies/secretary/",
-    "runtime": "111 mins",
+    "runtime": 111,
     "showtime": 2130
   },
   {
@@ -2292,7 +2292,7 @@
     "title": "T.O. Short 2026: Sci-Fi Shorts",
     "date": "2026-03-20",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-sci-fi-shorts/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 2200
   },
   {
@@ -2300,7 +2300,7 @@
     "title": "RevueEvent: THE LORD OF THE RINGS: THE FELLOWSHIP OF THE RING (Extended Edition!)",
     "date": "2026-03-21",
     "link": "https://revuecinema.ca/films/special-event-the-lord-of-the-rings-the-fellowship-of-the-ring-extended-edition/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1330
   },
   {
@@ -2308,7 +2308,7 @@
     "title": "T.O. Short 2026: Shorts 5",
     "date": "2026-03-21",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-shorts-5/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 1400
   },
   {
@@ -2316,7 +2316,7 @@
     "title": "T.O. Short 2026: Shorts 6",
     "date": "2026-03-21",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-shorts-6/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 1600
   },
   {
@@ -2324,7 +2324,7 @@
     "title": "Jocelyne Saab: Blind Faith",
     "date": "2026-03-21",
     "link": "https://tiff.net/events/jocelyne-saab-blind-faith",
-    "runtime": null,
+    "runtime": 100,
     "showtime": 1600
   },
   {
@@ -2332,7 +2332,7 @@
     "title": "T.O. Short 2026: Shorts 7",
     "date": "2026-03-21",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-shorts-7/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 1800
   },
   {
@@ -2340,7 +2340,7 @@
     "title": "1974, une partie de campagne",
     "date": "2026-03-21",
     "link": "https://tiff.net/events/1974-une-partie-de-campagne",
-    "runtime": null,
+    "runtime": 95,
     "showtime": 1830
   },
   {
@@ -2348,7 +2348,7 @@
     "title": "35 on 35: THE ADDAMS FAMILY (1991) - Presented on 35mm!",
     "date": "2026-03-21",
     "link": "https://revuecinema.ca/films/35-on-35-the-addams-family-1991-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1845
   },
   {
@@ -2356,7 +2356,7 @@
     "title": "T.O. Shorts 2026: Shorts 8",
     "date": "2026-03-21",
     "link": "https://paradiseonbloor.com/movies/t-o-shorts-2026-shorts-8/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 2000
   },
   {
@@ -2364,7 +2364,7 @@
     "title": "Black Belt Cinema: TIGER ON THE BEAT (1988) - North American Premiere of New 4K Restoration!",
     "date": "2026-03-21",
     "link": "https://revuecinema.ca/films/black-belt-cinema-tiger-on-the-beat-1988-north-american-premiere-of-new-4k-restoration/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -2372,7 +2372,7 @@
     "title": "T.O. Short 2026: Horror and Thriller Shorts",
     "date": "2026-03-21",
     "link": "https://paradiseonbloor.com/movies/t-o-short-2026-horror-and-thriller-shorts/",
-    "runtime": null,
+    "runtime": 80,
     "showtime": 2200
   },
   {
@@ -2380,7 +2380,7 @@
     "title": "Revue Event: TWIN PEAKS - Season 1 (episodes 5 - 7)",
     "date": "2026-03-22",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-1-episodes-5-7/",
-    "runtime": null,
+    "runtime": 142,
     "showtime": 1200
   },
   {
@@ -2388,7 +2388,7 @@
     "title": "In the Movies: The Music Videos of Sloan with Jay Ferguson and Chris Murphy",
     "date": "2026-03-22",
     "link": "https://paradiseonbloor.com/special_events/in-the-movies-the-music-videos-of-sloan-with-jay-ferguson-and-chris-murphy/",
-    "runtime": null,
+    "runtime": 120,
     "showtime": 1400
   },
   {
@@ -2396,7 +2396,7 @@
     "title": "La captive du désert",
     "date": "2026-03-22",
     "link": "https://tiff.net/events/la-captive-du-desert",
-    "runtime": null,
+    "runtime": 106,
     "showtime": 1515
   },
   {
@@ -2404,7 +2404,7 @@
     "title": "Destination Love: WEDDING CRASHERS (2005)",
     "date": "2026-03-22",
     "link": "https://revuecinema.ca/films/destination-love-wedding-crashers-2005/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1600
   },
   {
@@ -2412,7 +2412,7 @@
     "title": "Nahla followed by On the Set of Nahla",
     "date": "2026-03-22",
     "link": "https://tiff.net/events/nahla-followed-by-on-the-set-of-nahla",
-    "runtime": null,
+    "runtime": 148,
     "showtime": 1830
   },
   {
@@ -2420,7 +2420,7 @@
     "title": "The Staff Pick Of The Month: ED WOOD (1994)",
     "date": "2026-03-22",
     "link": "https://revuecinema.ca/films/the-staff-pick-of-the-month-ed-wood-1994/",
-    "runtime": null,
+    "runtime": 127,
     "showtime": 1900
   },
   {
@@ -2428,7 +2428,7 @@
     "title": "Veronika Voss",
     "date": "2026-03-23",
     "link": "https://paradiseonbloor.com/movies/veronika-voss/",
-    "runtime": null,
+    "runtime": 105,
     "showtime": 1800
   },
   {
@@ -2436,7 +2436,7 @@
     "title": "Destination Love: FOUR WEDDINGS AND A FUNERAL (1994) - New Restoration!",
     "date": "2026-03-23",
     "link": "https://revuecinema.ca/films/destination-love-four-weddings-and-a-funeral-1994-new-restoration/",
-    "runtime": null,
+    "runtime": 117,
     "showtime": 1830
   },
   {
@@ -2444,7 +2444,7 @@
     "title": "Winterbeast",
     "date": "2026-03-23",
     "link": "https://paradiseonbloor.com/movies/winterbeast/",
-    "runtime": null,
+    "runtime": 76,
     "showtime": 2030
   },
   {
@@ -2452,7 +2452,7 @@
     "title": "35 on 35: THE ADDAMS FAMILY (1991) - Presented on 35mm!",
     "date": "2026-03-23",
     "link": "https://revuecinema.ca/films/35-on-35-the-addams-family-1991-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -2460,7 +2460,7 @@
     "title": "Pet Sematary",
     "date": "2026-03-24",
     "link": "https://paradiseonbloor.com/movies/pet-sematary/",
-    "runtime": null,
+    "runtime": 102,
     "showtime": 1815
   },
   {
@@ -2468,7 +2468,7 @@
     "title": "Destination Love: CRAZY RICH ASIANS (2018)",
     "date": "2026-03-24",
     "link": "https://revuecinema.ca/films/destination-love-crazy-rich-asians-2018/",
-    "runtime": null,
+    "runtime": 121,
     "showtime": 1830
   },
   {
@@ -2476,7 +2476,7 @@
     "title": "Conversation Piece",
     "date": "2026-03-24",
     "link": "https://tiff.net/events/conversation-piece",
-    "runtime": null,
+    "runtime": 126,
     "showtime": 1830
   },
   {
@@ -2484,7 +2484,7 @@
     "title": "It",
     "date": "2026-03-24",
     "link": "https://paradiseonbloor.com/movies/it/",
-    "runtime": null,
+    "runtime": 135,
     "showtime": 2045
   },
   {
@@ -2492,7 +2492,7 @@
     "title": "When Animals Attack: WILD BEASTS (1984) - Toronto Theatrical Premiere of New 4K Restoration!",
     "date": "2026-03-24",
     "link": "https://revuecinema.ca/films/when-animals-attack-wild-beasts-1984-toronto-theatrical-premiere-of-new-4k-restoration/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -2500,7 +2500,7 @@
     "title": "Mississippi Masala preceded by One Day",
     "date": "2026-03-25",
     "link": "https://tiff.net/events/mississippi-masala-preceded-by-one-day",
-    "runtime": null,
+    "runtime": 180,
     "showtime": 1800
   },
   {
@@ -2508,7 +2508,7 @@
     "title": "Revue Event: MINORITY REPORT (2002) - Presented on 16mm!",
     "date": "2026-03-25",
     "link": "https://revuecinema.ca/films/revue-event-minority-report-2002-presented-on-16mm/",
-    "runtime": null,
+    "runtime": 145,
     "showtime": 1815
   },
   {
@@ -2516,7 +2516,7 @@
     "title": "Damnation",
     "date": "2026-03-25",
     "link": "https://tiff.net/events/damnation",
-    "runtime": null,
+    "runtime": 121,
     "showtime": 1830
   },
   {
@@ -2524,7 +2524,7 @@
     "title": "Notting Hill",
     "date": "2026-03-25",
     "link": "https://paradiseonbloor.com/movies/notting-hill/",
-    "runtime": null,
+    "runtime": 124,
     "showtime": 2030
   },
   {
@@ -2532,7 +2532,7 @@
     "title": "Destination Love: DESTINATION WEDDING",
     "date": "2026-03-25",
     "link": "https://revuecinema.ca/films/destination-love-destination-wedding/",
-    "runtime": null,
+    "runtime": 90,
     "showtime": 2130
   },
   {
@@ -2540,7 +2540,7 @@
     "title": "Setting the Scene Exhibition Launch",
     "date": "2026-03-26",
     "link": "https://tiff.net/events/setting-the-scene-exhibition-launch",
-    "runtime": null,
+    "runtime": 120,
     "showtime": 1700
   },
   {
@@ -2548,7 +2548,7 @@
     "title": "Profils paysans: L'approche",
     "date": "2026-03-26",
     "link": "https://tiff.net/events/profils-paysans-lapproche",
-    "runtime": null,
+    "runtime": 99,
     "showtime": 1830
   },
   {
@@ -2556,7 +2556,7 @@
     "title": "Hold Up: SHE'S THE MAN - 20th Anniversary Screening!",
     "date": "2026-03-26",
     "link": "https://revuecinema.ca/films/hold-up-shes-the-man-20th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 105,
     "showtime": 1845
   },
   {
@@ -2564,7 +2564,7 @@
     "title": "Idiotka",
     "date": "2026-03-26",
     "link": "https://tiff.net/events/idiotka",
-    "runtime": null,
+    "runtime": 120,
     "showtime": 2045
   },
   {
@@ -2572,7 +2572,7 @@
     "title": "Revue Event: MINORITY REPORT (2002) - Presented on 16mm!",
     "date": "2026-03-26",
     "link": "https://revuecinema.ca/films/revue-event-minority-report-2002-presented-on-16mm/",
-    "runtime": null,
+    "runtime": 145,
     "showtime": 2130
   },
   {
@@ -2580,7 +2580,7 @@
     "title": "Silver Screenings: The Queen of My Dreams",
     "date": "2026-03-27",
     "link": "https://tiff.net/events/silver-screenings-the-queen-of-my-dreams",
-    "runtime": null,
+    "runtime": 122,
     "showtime": 1200
   },
   {
@@ -2588,7 +2588,7 @@
     "title": "Mirrors No. 3",
     "date": "2026-03-27",
     "link": "https://paradiseonbloor.com/movies/mirrors-no-3/",
-    "runtime": null,
+    "runtime": 86,
     "showtime": 1800
   },
   {
@@ -2596,7 +2596,7 @@
     "title": "Revue Event: MONTRÉAL, MA BELLE",
     "date": "2026-03-27",
     "link": "https://revuecinema.ca/films/revue-event-montreal-ma-belle/",
-    "runtime": null,
+    "runtime": 117,
     "showtime": 1830
   },
   {
@@ -2604,7 +2604,7 @@
     "title": "Profils paysans: Le quotidien preceded by Quoi de neuf au Garet ?",
     "date": "2026-03-27",
     "link": "https://tiff.net/events/profils-paysans-le-quotidien-preceded-by-quoi-de-neuf-au-garet",
-    "runtime": null,
+    "runtime": 100,
     "showtime": 1830
   },
   {
@@ -2612,7 +2612,7 @@
     "title": "Mirrors No. 3",
     "date": "2026-03-27",
     "link": "https://paradiseonbloor.com/movies/mirrors-no-3/",
-    "runtime": null,
+    "runtime": 86,
     "showtime": 2030
   },
   {
@@ -2620,7 +2620,7 @@
     "title": "Permanent Tourist",
     "date": "2026-03-27",
     "link": "https://paradiseonbloor.com/movies/permanent-tourist/",
-    "runtime": null,
+    "runtime": 70,
     "showtime": 2030
   },
   {
@@ -2628,7 +2628,7 @@
     "title": "Revue Event: I LIVE HERE NOW - Toronto Theatrical Premiere of 35mm Print!",
     "date": "2026-03-27",
     "link": "https://revuecinema.ca/films/revue-event-i-live-here-now-toronto-theatrical-premiere-of-35mm-print/",
-    "runtime": null,
+    "runtime": 91,
     "showtime": 2130
   },
   {
@@ -2636,7 +2636,7 @@
     "title": "Revue Event: TWIN PEAKS - Season 2 (episodes 1 - 2)",
     "date": "2026-03-28",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-2-episodes-1-2/",
-    "runtime": null,
+    "runtime": 141,
     "showtime": 1200
   },
   {
@@ -2644,7 +2644,7 @@
     "title": "Conversation Piece",
     "date": "2026-03-28",
     "link": "https://tiff.net/events/conversation-piece",
-    "runtime": null,
+    "runtime": 126,
     "showtime": 1530
   },
   {
@@ -2652,7 +2652,7 @@
     "title": "Throwback Cinema: THE GREAT MUPPET CAPER - 45th Anniversary Screening!",
     "date": "2026-03-28",
     "link": "https://revuecinema.ca/films/throwback-cinema-the-great-muppet-caper-45th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1600
   },
   {
@@ -2660,7 +2660,7 @@
     "title": "La vie moderne",
     "date": "2026-03-28",
     "link": "https://tiff.net/events/la-vie-moderne",
-    "runtime": null,
+    "runtime": 93,
     "showtime": 1830
   },
   {
@@ -2668,7 +2668,7 @@
     "title": "Dumpster Raccoon: WICKED & WICKED: FOR GOOD u2013 DOUBLE FEATURE Singalong/Open Stage Screening!",
     "date": "2026-03-28",
     "link": "https://revuecinema.ca/films/dumpster-raccoon-wicked-sing-a-long/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1845
   },
   {
@@ -2676,7 +2676,7 @@
     "title": "Dumpster Raccoon: WICKED & WICKED: FOR GOOD u2013 DOUBLE FEATURE Singalong/Open Stage Screening!",
     "date": "2026-03-28",
     "link": "https://revuecinema.ca/films/dumpster-raccoon-wicked-wicked-for-good-double-feature-singalong-open-stage-screening/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2210
   },
   {
@@ -2684,7 +2684,7 @@
     "title": "Double Feature: My Favorite Wife & The Awful Truth",
     "date": "2026-03-29",
     "link": "https://paradiseonbloor.com/programs/double-feature-my-favorite-wife-the-awful-truth/",
-    "runtime": null,
+    "runtime": 194,
     "showtime": 1330
   },
   {
@@ -2692,7 +2692,7 @@
     "title": "Silent Revue: THE MANXMAN (1929)",
     "date": "2026-03-29",
     "link": "https://revuecinema.ca/films/silent-revue-the-manxman-1929/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1600
   },
   {
@@ -2700,7 +2700,7 @@
     "title": "Wild Rose",
     "date": "2026-03-29",
     "link": "https://tiff.net/events/wild-rose",
-    "runtime": null,
+    "runtime": 106,
     "showtime": 1600
   },
   {
@@ -2708,7 +2708,7 @@
     "title": "Foxy Brown",
     "date": "2026-03-29",
     "link": "https://paradiseonbloor.com/movies/foxy-brown/",
-    "runtime": null,
+    "runtime": 94,
     "showtime": 1800
   },
   {
@@ -2716,7 +2716,7 @@
     "title": "Paris preceded by New York, N.Y.",
     "date": "2026-03-29",
     "link": "https://tiff.net/events/paris-preceded-by-new-york-ny",
-    "runtime": null,
+    "runtime": 111,
     "showtime": 1830
   },
   {
@@ -2724,7 +2724,7 @@
     "title": "Don't Be So Political: MONOS (2019)",
     "date": "2026-03-29",
     "link": "https://revuecinema.ca/films/dont-be-so-political-monos-2019/",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1900
   },
   {
@@ -2732,7 +2732,7 @@
     "title": "Sunset Boulevard",
     "date": "2026-03-30",
     "link": "https://paradiseonbloor.com/movies/sunset-boulevard/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 1800
   },
   {
@@ -2740,7 +2740,7 @@
     "title": "BE Shorts",
     "date": "2026-03-30",
     "link": "https://paradiseonbloor.com/movies/be-shorts/",
-    "runtime": null,
+    "runtime": 98,
     "showtime": 2100
   },
   {
@@ -2748,7 +2748,7 @@
     "title": "The Dead Zone",
     "date": "2026-03-31",
     "link": "https://paradiseonbloor.com/movies/the-dead-zone/",
-    "runtime": null,
+    "runtime": 103,
     "showtime": 1800
   },
   {
@@ -2756,7 +2756,7 @@
     "title": "Journal de France",
     "date": "2026-03-31",
     "link": "https://tiff.net/events/journal-de-france",
-    "runtime": null,
+    "runtime": 121,
     "showtime": 1830
   },
   {
@@ -2764,7 +2764,7 @@
     "title": "The Mist",
     "date": "2026-03-31",
     "link": "https://paradiseonbloor.com/movies/the-mist/",
-    "runtime": null,
+    "runtime": 126,
     "showtime": 2045
   },
   {
@@ -2772,7 +2772,7 @@
     "title": "A New Love in Tokyo",
     "date": "2026-04-01",
     "link": "https://tiff.net/events/a-new-love-in-tokyo",
-    "runtime": null,
+    "runtime": 135,
     "showtime": 1830
   },
   {
@@ -2780,7 +2780,7 @@
     "title": "Revue Event: APRIL FOOL'S DAY - 40th Anniversary Screening!",
     "date": "2026-04-01",
     "link": "https://revuecinema.ca/films/revue-event-april-fools-day-1986/",
-    "runtime": null,
+    "runtime": 89,
     "showtime": 1900
   },
   {
@@ -2788,7 +2788,7 @@
     "title": "Revue Event: SLAUGHTER HIGH - 40th Anniversary Screening!",
     "date": "2026-04-01",
     "link": "https://revuecinema.ca/films/revue-event-slaughter-high-40th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 91,
     "showtime": 2130
   },
   {
@@ -2796,7 +2796,7 @@
     "title": "What Does That Nature Say to You",
     "date": "2026-04-02",
     "link": "https://tiff.net/events/what-does-that-nature-say-to-you",
-    "runtime": null,
+    "runtime": 128,
     "showtime": 1830
   },
   {
@@ -2804,7 +2804,7 @@
     "title": "Revue Event: FRAILTY - 25th Anniversary Screening!",
     "date": "2026-04-02",
     "link": "https://revuecinema.ca/films/revue-event-frailty-25th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 100,
     "showtime": 2130
   },
   {
@@ -2812,7 +2812,7 @@
     "title": "Revue Event: DEAD LOVER - With Cast & Crew In Attendance!",
     "date": "2026-04-03",
     "link": "https://revuecinema.ca/films/revue-event-dead-lover-with-cast-crew-in-attendance/",
-    "runtime": null,
+    "runtime": 86,
     "showtime": 1845
   },
   {
@@ -2820,7 +2820,7 @@
     "title": "THE DRAMA",
     "date": "2026-04-03",
     "link": "https://revuecinema.ca/films/the-drama/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2120
   },
   {
@@ -2828,7 +2828,7 @@
     "title": "The Midnight Revue: DONNIE DARKO - 25th Anniversary Screening!",
     "date": "2026-04-03",
     "link": "https://revuecinema.ca/films/revue-event-donnie-darko/",
-    "runtime": null,
+    "runtime": 113,
     "showtime": 2359
   },
   {
@@ -2836,7 +2836,7 @@
     "title": "Stompbox: THE SATURDAY MORNING ALL-YOU-CAN-EAT CEREAL CARTOON PARTY (Easter Edition!)",
     "date": "2026-04-04",
     "link": "https://revuecinema.ca/films/stompbox-the-saturday-morning-all-you-can-eat-cereal-cartoon-party/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1000
   },
   {
@@ -2844,7 +2844,7 @@
     "title": "Revue Event: DEAD LOVER - With Cast & Crew In Attendance!",
     "date": "2026-04-04",
     "link": "https://revuecinema.ca/films/revue-event-dead-lover-with-cast-crew-in-attendance/",
-    "runtime": null,
+    "runtime": 86,
     "showtime": 1845
   },
   {
@@ -2852,7 +2852,7 @@
     "title": "THE DRAMA",
     "date": "2026-04-04",
     "link": "https://revuecinema.ca/films/the-drama/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -2860,7 +2860,7 @@
     "title": "Revue Event: TWIN PEAKS - Season 2 (episodes 3 - 6)",
     "date": "2026-04-05",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-2-episodes-3-6/",
-    "runtime": null,
+    "runtime": 191,
     "showtime": 1200
   },
   {
@@ -2868,7 +2868,7 @@
     "title": "Revue Cinema: THE TEN COMMANDMENTS - 70th Anniversary Screening!",
     "date": "2026-04-05",
     "link": "https://revuecinema.ca/films/revue-cinema-the-ten-commandments-70th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1600
   },
   {
@@ -2876,7 +2876,7 @@
     "title": "THE DRAMA",
     "date": "2026-04-05",
     "link": "https://revuecinema.ca/films/the-drama/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2045
   },
   {
@@ -2884,7 +2884,7 @@
     "title": "THE DRAMA",
     "date": "2026-04-06",
     "link": "https://revuecinema.ca/films/the-drama/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1530
   },
   {
@@ -2892,7 +2892,7 @@
     "title": "Designing The Movies: BLOW-UP - 60th Anniversary Screening!",
     "date": "2026-04-06",
     "link": "https://revuecinema.ca/films/designing-the-movies-blow-up-60th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 111,
     "showtime": 1830
   },
   {
@@ -2900,7 +2900,7 @@
     "title": "The Maiku Hama Trilogy:  THE MOST TERRIBLE TIME IN MY LIFE (1994) - Toronto Theatrical Premiere of New 4K Restoration",
     "date": "2026-04-06",
     "link": "https://revuecinema.ca/films/the-maiku-hama-trilogy-the-most-terrible-time-in-my-life-1994-toronto-theatrical-premiere-of-new-4k-restoration/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -2908,7 +2908,7 @@
     "title": "THE DRAMA",
     "date": "2026-04-07",
     "link": "https://revuecinema.ca/films/the-drama/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1600
   },
   {
@@ -2916,7 +2916,7 @@
     "title": "Revue Film Society: TUCKER AND DALE VS. EVIL (2010)",
     "date": "2026-04-07",
     "link": "https://revuecinema.ca/films/revue-film-society-tucker-and-dale-vs-evil-2010/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1900
   },
   {
@@ -2924,7 +2924,7 @@
     "title": "Revue Event: DEAD LOVER - With Cast & Crew In Attendance!",
     "date": "2026-04-07",
     "link": "https://revuecinema.ca/films/revue-event-dead-lover-with-cast-crew-in-attendance/",
-    "runtime": null,
+    "runtime": 86,
     "showtime": 2130
   },
   {
@@ -2932,7 +2932,7 @@
     "title": "UnCAGED: THE ROCK - 30th Anniversary Screening!",
     "date": "2026-04-08",
     "link": "https://revuecinema.ca/films/uncaged-the-rock-30th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1815
   },
   {
@@ -2940,7 +2940,7 @@
     "title": "THE DRAMA",
     "date": "2026-04-08",
     "link": "https://revuecinema.ca/films/the-drama/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -2948,7 +2948,7 @@
     "title": "THE DRAMA",
     "date": "2026-04-09",
     "link": "https://revuecinema.ca/films/the-drama/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1600
   },
   {
@@ -2956,7 +2956,7 @@
     "title": "We Really Like Her!: LITTLE MISS SUNSHINE - 20th Anniversary Screening!",
     "date": "2026-04-09",
     "link": "https://revuecinema.ca/films/we-really-like-her-little-miss-sunshine-20th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 102,
     "showtime": 1845
   },
   {
@@ -2964,7 +2964,7 @@
     "title": "Revue Event: DEAD LOVER - With Cast & Crew In Attendance!",
     "date": "2026-04-09",
     "link": "https://revuecinema.ca/films/revue-event-dead-lover-with-cast-crew-in-attendance/",
-    "runtime": null,
+    "runtime": 86,
     "showtime": 2130
   },
   {
@@ -2972,7 +2972,7 @@
     "title": "Toronto Silent Film Festival: BEAU GESTE (1926) - Canadian Premiere of New Restoration!",
     "date": "2026-04-10",
     "link": "https://revuecinema.ca/films/toronto-silent-film-festival-beau-geste-1926-canadian-premiere-of-new-restoration/",
-    "runtime": null,
+    "runtime": 129,
     "showtime": 1800
   },
   {
@@ -2980,7 +2980,7 @@
     "title": "Scarecrow in a Garden of Cucumbers",
     "date": "2026-04-10",
     "link": "https://paradiseonbloor.com/movies/scarecrow-in-a-garden-of-cucumbers/",
-    "runtime": null,
+    "runtime": 82,
     "showtime": 1900
   },
   {
@@ -2988,7 +2988,7 @@
     "title": "Revue Event: MIDDLE LIFE - Toronto Theatrical Premiere with Cast & Crew In Attendance!",
     "date": "2026-04-10",
     "link": "https://revuecinema.ca/films/revue-event-middle-life-toronto-theatrical-premiere-with-cast-crew-in-attendance/",
-    "runtime": null,
+    "runtime": 84,
     "showtime": 2130
   },
   {
@@ -2996,7 +2996,7 @@
     "title": "Toronto Silent Film Festival: Laffs in the Aft - Just Kidding",
     "date": "2026-04-11",
     "link": "https://revuecinema.ca/films/toronto-silent-film-festival-laffs-in-the-aft-just-kidding/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1315
   },
   {
@@ -3004,7 +3004,7 @@
     "title": "Toronto Silent Film Festival: LOVE (1927)",
     "date": "2026-04-11",
     "link": "https://revuecinema.ca/films/toronto-silent-film-festival-love-1927/",
-    "runtime": null,
+    "runtime": 81,
     "showtime": 1600
   },
   {
@@ -3012,7 +3012,7 @@
     "title": "(Not-So) Terrible Twos: 2010: THE YEAR WE MAKE CONTACT (1984)",
     "date": "2026-04-11",
     "link": "https://revuecinema.ca/films/not-so-terrible-twos-2010-the-year-we-make-contact-1984/",
-    "runtime": null,
+    "runtime": 116,
     "showtime": 1845
   },
   {
@@ -3020,7 +3020,7 @@
     "title": "National Canadian Film Day & Revue Events: Nirvanna the Band the Show the Movie - PRESENTED ON 35MM!",
     "date": "2026-04-11",
     "link": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 102,
     "showtime": 2130
   },
   {
@@ -3028,7 +3028,7 @@
     "title": "Toronto Silent Film Festival: STRIKE (1925)",
     "date": "2026-04-12",
     "link": "https://revuecinema.ca/films/toronto-silent-film-festival-strike-1925/",
-    "runtime": null,
+    "runtime": 95,
     "showtime": 1315
   },
   {
@@ -3036,7 +3036,7 @@
     "title": "Toronto Silent Film Festival: THE GARDEN OF EDEN (1928) - Canadian Premiere of New Restoration!",
     "date": "2026-04-12",
     "link": "https://revuecinema.ca/films/toronto-silent-film-festival-the-garden-of-eden-1928-canadian-premiere-of-new-restoration/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1600
   },
   {
@@ -3044,7 +3044,7 @@
     "title": "Don't Be So Political: FITZCARRALDO (1982)",
     "date": "2026-04-12",
     "link": "https://revuecinema.ca/films/dont-be-so-political-fitzcarraldo-1982/",
-    "runtime": null,
+    "runtime": 157,
     "showtime": 1900
   },
   {
@@ -3052,7 +3052,7 @@
     "title": "Revue Event: WHAT DOES THAT NATURE SAY TO YOU",
     "date": "2026-04-13",
     "link": "https://revuecinema.ca/films/revue-event-what-does-that-nature-say-to-you/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1845
   },
   {
@@ -3060,7 +3060,7 @@
     "title": "The Maiku Hama Trilogy: THE STAIRWAY TO THE DISTANT PAST (1995) - Toronto Theatrical Premiere of New 4K Restoration!",
     "date": "2026-04-13",
     "link": "https://revuecinema.ca/films/the-maiku-hama-trilogy-the-stairway-to-the-distant-past-1995-toronto-theatrical-premiere-of-new-4k-restoration/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -3068,7 +3068,7 @@
     "title": "Staff Pick Of The Month: DISTRICT 9 (2009)",
     "date": "2026-04-14",
     "link": "https://revuecinema.ca/films/staff-pick-of-the-month-district-9-2009/",
-    "runtime": null,
+    "runtime": 112,
     "showtime": 1830
   },
   {
@@ -3076,7 +3076,7 @@
     "title": "The Maiku Hama Trilogy: THE TRAP (1996) - Toronto Theatrical Premiere of New 4K Restoration",
     "date": "2026-04-14",
     "link": "https://revuecinema.ca/films/the-maiku-hama-trilogy-the-trap-1996-toronto-theatrical-premiere-of-new-4k-restoration/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -3084,7 +3084,7 @@
     "title": "National Canadian Film Day & Revue Events: Nirvanna the Band the Show the Movie - PRESENTED ON 35MM!",
     "date": "2026-04-15",
     "link": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 102,
     "showtime": 1830
   },
   {
@@ -3092,7 +3092,7 @@
     "title": "In Conversation With... Salman Rushdie",
     "date": "2026-04-15",
     "link": "https://tiff.net/events/in-conversation-with-salman-rushdie",
-    "runtime": null,
+    "runtime": 90,
     "showtime": 1830
   },
   {
@@ -3100,7 +3100,7 @@
     "title": "UnCAGED: DRIVE ANGRY (2011) - In 3D & 35mm!",
     "date": "2026-04-15",
     "link": "https://revuecinema.ca/films/uncaged-drive-angry-2011-in-3d-35mm/",
-    "runtime": null,
+    "runtime": 104,
     "showtime": 2130
   },
   {
@@ -3108,7 +3108,7 @@
     "title": "Paid In Sweat: JACKASS NUMBER TWO - 20th Anniversary Screening!",
     "date": "2026-04-16",
     "link": "https://revuecinema.ca/films/paid-in-sweat-jackass-number-two-20th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 92,
     "showtime": 1845
   },
   {
@@ -3116,7 +3116,7 @@
     "title": "Free Members-Only Screening: TRAILER TRASH: SPY-FI",
     "date": "2026-04-16",
     "link": "https://revuecinema.ca/films/free-members-only-screening-trailer-trash-spy-fi/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 2130
   },
   {
@@ -3124,7 +3124,7 @@
     "title": "PRINCE Tribute: UNDER THE CHERRY MOON - 40th Anniversary Screening!",
     "date": "2026-04-17",
     "link": "https://revuecinema.ca/films/prince-tribute-under-the-cherry-moon-40th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1845
   },
   {
@@ -3132,7 +3132,7 @@
     "title": "Drunken Cinema: SHREK - 25th Anniversary Screening!",
     "date": "2026-04-17",
     "link": "https://revuecinema.ca/films/toon-holiday-shrek-2001/",
-    "runtime": null,
+    "runtime": 90,
     "showtime": 2130
   },
   {
@@ -3140,7 +3140,7 @@
     "title": "Revue Event: TWIN PEAKS - Season 2 (episodes 7-10)",
     "date": "2026-04-18",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-2-episodes-7-10/",
-    "runtime": null,
+    "runtime": 191,
     "showtime": 1200
   },
   {
@@ -3148,7 +3148,7 @@
     "title": "Throwback Cinema: FERNGULLY: THE LAST RAINFOREST (1992)",
     "date": "2026-04-18",
     "link": "https://revuecinema.ca/films/throwback-cinema-ferngully-the-last-rainforest-1992/",
-    "runtime": null,
+    "runtime": 76,
     "showtime": 1600
   },
   {
@@ -3156,7 +3156,7 @@
     "title": "PRINCE Tribute: BATMAN (1989) - New Restoration!",
     "date": "2026-04-18",
     "link": "https://revuecinema.ca/films/batman-89/",
-    "runtime": null,
+    "runtime": 126,
     "showtime": 1830
   },
   {
@@ -3164,7 +3164,7 @@
     "title": "Black Belt Cinema: THE BLADE (1995) - New Restoration",
     "date": "2026-04-18",
     "link": "https://revuecinema.ca/films/black-belt-cinema-the-blade-1995-new-restoration/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -3172,7 +3172,7 @@
     "title": "Silent Revue: MAN WITH A MOVIE CAMERA (1929)",
     "date": "2026-04-19",
     "link": "https://revuecinema.ca/films/silent-revue-man-with-a-movie-camera-1929/",
-    "runtime": null,
+    "runtime": 68,
     "showtime": 1600
   },
   {
@@ -3180,7 +3180,7 @@
     "title": "PRINCE Tribute: GRAFFITI BRIDGE (1990)",
     "date": "2026-04-19",
     "link": "https://revuecinema.ca/films/prince-tribute-graffiti-bridge-1990/",
-    "runtime": null,
+    "runtime": 95,
     "showtime": 1900
   },
   {
@@ -3188,7 +3188,7 @@
     "title": "National Canadian Film Day & Revue Events: Nirvanna the Band the Show the Movie - PRESENTED ON 35MM!",
     "date": "2026-04-19",
     "link": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 102,
     "showtime": 2130
   },
   {
@@ -3196,7 +3196,7 @@
     "title": "420 Day Screening: REEFER MADNESS - 90th Anniversary Screening!",
     "date": "2026-04-20",
     "link": "https://revuecinema.ca/films/420-day-screening-reefer-madness-1938/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1620
   },
   {
@@ -3204,7 +3204,7 @@
     "title": "420 Day Screening: THE BIG LEBOWSKI (1998)",
     "date": "2026-04-20",
     "link": "https://revuecinema.ca/films/420-day-screening-the-big-lebowski-1998/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1830
   },
   {
@@ -3212,7 +3212,7 @@
     "title": "Psych-Out Cinema: CHEECH & CHONG'S UP IN SMOKE (1978) - 420 Day Screening!",
     "date": "2026-04-20",
     "link": "https://revuecinema.ca/films/psych-out-cinema-cheech-chongs-up-in-smoke-1978-420-day-screening/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -3220,7 +3220,7 @@
     "title": "PRINCE Tribute: PURPLE RAIN (1984) - New 4K Restoration!",
     "date": "2026-04-21",
     "link": "https://revuecinema.ca/films/drunken-cinema-purple-rain-40th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 111,
     "showtime": 1845
   },
   {
@@ -3228,7 +3228,7 @@
     "title": "Revue Event: DEAD MOUNTAINEER'S HOTEL (1979) - Toronto Theatrical Premiere of New Restoration!",
     "date": "2026-04-21",
     "link": "https://revuecinema.ca/films/revue-event-dead-mountaineers-hotel-1979-toronto-theatrical-premiere-of-new-restoration/",
-    "runtime": null,
+    "runtime": 84,
     "showtime": 2130
   },
   {
@@ -3236,7 +3236,7 @@
     "title": "The Black Nerds: JUST ANOTHER GIRL ON THE I.R.T (1993) - New 4K Restoration!",
     "date": "2026-04-22",
     "link": "https://revuecinema.ca/films/the-black-nerds-just-another-girl-on-the-i-r-t-1993-new-4k-restoration/",
-    "runtime": null,
+    "runtime": 92,
     "showtime": 1845
   },
   {
@@ -3244,7 +3244,7 @@
     "title": "Female Trouble",
     "date": "2026-04-22",
     "link": "https://paradiseonbloor.com/movies/female-trouble/",
-    "runtime": null,
+    "runtime": 98,
     "showtime": 1930
   },
   {
@@ -3252,7 +3252,7 @@
     "title": "UnCAGED: RED ROCK WEST (1993)",
     "date": "2026-04-22",
     "link": "https://revuecinema.ca/films/uncaged-red-rock-west-1993/",
-    "runtime": null,
+    "runtime": 98,
     "showtime": 2130
   },
   {
@@ -3260,7 +3260,7 @@
     "title": "Hold Up: JOHN TUCKER MUST DIE (2006) - Presented on 35mm!",
     "date": "2026-04-23",
     "link": "https://revuecinema.ca/films/hold-up-john-tucker-must-die-2006-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 87,
     "showtime": 1845
   },
   {
@@ -3268,7 +3268,7 @@
     "title": "Revue Event: THE SWORD AND THE SORCERER (1982)  - Featuring A Live Performance by THUNDER GLOVE!",
     "date": "2026-04-23",
     "link": "https://revuecinema.ca/films/revue-event-the-sword-and-the-sorcerer-1982-featuring-a-live-performance-by-thunder-glove/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -3276,7 +3276,7 @@
     "title": "MOTHER MARY",
     "date": "2026-04-24",
     "link": "https://revuecinema.ca/films/mother-mary/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 1845
   },
   {
@@ -3284,7 +3284,7 @@
     "title": "Neon Dreams: WALKER (1987) - Presented on 35mm!",
     "date": "2026-04-24",
     "link": "https://revuecinema.ca/films/neon-dreams-walker-1987-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -3292,7 +3292,7 @@
     "title": "Revue Event: TWIN PEAKS - Season 2 (episodes 11 - 14)",
     "date": "2026-04-25",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-2-episodes-11-14/",
-    "runtime": null,
+    "runtime": 188,
     "showtime": 1200
   },
   {
@@ -3300,7 +3300,7 @@
     "title": "MOTHER MARY",
     "date": "2026-04-25",
     "link": "https://revuecinema.ca/films/mother-mary/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 1600
   },
   {
@@ -3308,7 +3308,7 @@
     "title": "The Perfect Date: MISS CONGENIALITY (2000)",
     "date": "2026-04-25",
     "link": "https://revuecinema.ca/films/the-perfect-date-miss-congeniality/",
-    "runtime": null,
+    "runtime": 111,
     "showtime": 1845
   },
   {
@@ -3316,7 +3316,7 @@
     "title": "Dildo Heaven",
     "date": "2026-04-25",
     "link": "https://paradiseonbloor.com/movies/dildo-heaven/",
-    "runtime": null,
+    "runtime": 79,
     "showtime": 2100
   },
   {
@@ -3324,7 +3324,7 @@
     "title": "Dumpster Raccoon: ELVIRA: MISTRESS OF THE DARK (1988)",
     "date": "2026-04-25",
     "link": "https://revuecinema.ca/films/dumpster-raccoon-elvira-mistress-of-the-dark-1988/",
-    "runtime": null,
+    "runtime": 96,
     "showtime": 2130
   },
   {
@@ -3332,7 +3332,7 @@
     "title": "The Perfect Date: ALIEN & ALIENS Double Feature!",
     "date": "2026-04-26",
     "link": "https://revuecinema.ca/films/the-perfect-date-alien-aliens-double-feature/",
-    "runtime": null,
+    "runtime": 117,
     "showtime": 1600
   },
   {
@@ -3340,7 +3340,7 @@
     "title": "The Perfect Date: ALIEN & ALIENS Double Feature!",
     "date": "2026-04-26",
     "link": "https://revuecinema.ca/films/the-perfect-date-alien-aliens-double-feature-2/",
-    "runtime": null,
+    "runtime": 154,
     "showtime": 1845
   },
   {
@@ -3348,7 +3348,7 @@
     "title": "MOTHER MARY",
     "date": "2026-04-26",
     "link": "https://revuecinema.ca/films/mother-mary/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 2145
   },
   {
@@ -3356,7 +3356,7 @@
     "title": "MOTHER MARY",
     "date": "2026-04-27",
     "link": "https://revuecinema.ca/films/mother-mary/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 1845
   },
   {
@@ -3364,7 +3364,7 @@
     "title": "Anime At The Revue: COWBOY BEBOP: THE MOVIE (2001)",
     "date": "2026-04-27",
     "link": "https://revuecinema.ca/films/anime-at-the-revue-cowboy-bebop-the-movie-2001/",
-    "runtime": null,
+    "runtime": 115,
     "showtime": 2130
   },
   {
@@ -3372,7 +3372,7 @@
     "title": "MOTHER MARY",
     "date": "2026-04-28",
     "link": "https://revuecinema.ca/films/mother-mary/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 1530
   },
   {
@@ -3380,7 +3380,7 @@
     "title": "Stompbox: VINYL (2000) - + Q and A with Director Alan Zweig!",
     "date": "2026-04-28",
     "link": "https://revuecinema.ca/films/stompbox-vinyl-2000-q-and-a-with-director-alan-zweig/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1830
   },
   {
@@ -3388,7 +3388,7 @@
     "title": "When Animals Attack: WILLARD (2003)",
     "date": "2026-04-28",
     "link": "https://revuecinema.ca/films/when-animals-attack-willard-2003/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -3396,7 +3396,7 @@
     "title": "UnCAGED: BAD LIEUTENANT: PORT OF NEW ORLEANS (2009)",
     "date": "2026-04-29",
     "link": "https://revuecinema.ca/films/uncaged-bad-lieutenant-port-of-new-orleans-2009/",
-    "runtime": null,
+    "runtime": 122,
     "showtime": 1830
   },
   {
@@ -3404,7 +3404,7 @@
     "title": "MOTHER MARY",
     "date": "2026-04-29",
     "link": "https://revuecinema.ca/films/mother-mary/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 2130
   },
   {
@@ -3412,7 +3412,7 @@
     "title": "MOTHER MARY",
     "date": "2026-04-30",
     "link": "https://revuecinema.ca/films/mother-mary/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 1545
   },
   {
@@ -3420,7 +3420,7 @@
     "title": "Designing The Movies: HIS GIRL FRIDAY (1940) - New 4K Restoration!",
     "date": "2026-04-30",
     "link": "https://revuecinema.ca/films/designing-the-movies-his-girl-friday-1940-new-4k-restoration/",
-    "runtime": null,
+    "runtime": 92,
     "showtime": 1845
   },
   {
@@ -3428,7 +3428,7 @@
     "title": "Nightmare Alley: THE LORDS OF SALEM (2012)",
     "date": "2026-04-30",
     "link": "https://revuecinema.ca/films/nightmare-alley-the-lords-of-salem-2012/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -3436,7 +3436,7 @@
     "title": "To 70 And Beyond: CLOSE ENCOUNTERS OF THE THIRD KIND (1977) - Presented on 70mm!",
     "date": "2026-05-01",
     "link": "https://revuecinema.ca/films/close-encounters-of-the-third-kind/",
-    "runtime": null,
+    "runtime": 137,
     "showtime": 2130
   },
   {
@@ -3444,7 +3444,7 @@
     "title": "Revue Event: THE LORD OF THE RINGS: THE TWO TOWERS (Extended Edition!)",
     "date": "2026-05-02",
     "link": "https://revuecinema.ca/films/revue-event-the-lord-of-the-rings-the-two-towers-extended-edition/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1300
   },
   {
@@ -3452,7 +3452,7 @@
     "title": "To 70 And Beyond: CLOSE ENCOUNTERS OF THE THIRD KIND (1977) - Presented on 70mm!",
     "date": "2026-05-02",
     "link": "https://revuecinema.ca/films/close-encounters-of-the-third-kind/",
-    "runtime": null,
+    "runtime": 137,
     "showtime": 1815
   },
   {
@@ -3460,7 +3460,7 @@
     "title": "Revue Event: TWIN PEAKS - Season 2 (episodes 15 - 18)",
     "date": "2026-05-03",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-2-episodes-15-18/",
-    "runtime": null,
+    "runtime": 187,
     "showtime": 1200
   },
   {
@@ -3468,7 +3468,7 @@
     "title": "To 70 And Beyond: CLOSE ENCOUNTERS OF THE THIRD KIND (1977) - Presented on 70mm!",
     "date": "2026-05-03",
     "link": "https://revuecinema.ca/films/close-encounters-of-the-third-kind/",
-    "runtime": null,
+    "runtime": 137,
     "showtime": 1615
   },
   {
@@ -3476,7 +3476,7 @@
     "title": "The Perfect Date: STAR WARS: EPISODE IV - A NEW HOPE (4K Restoration!)",
     "date": "2026-05-04",
     "link": "https://revuecinema.ca/films/the-perfect-date-star-wars-episode-iv-a-new-hope-4k-restoration/",
-    "runtime": null,
+    "runtime": 121,
     "showtime": 1830
   },
   {
@@ -3484,7 +3484,7 @@
     "title": "To 70 And Beyond: CLOSE ENCOUNTERS OF THE THIRD KIND (1977) - Presented on 70mm!",
     "date": "2026-05-04",
     "link": "https://revuecinema.ca/films/close-encounters-of-the-third-kind/",
-    "runtime": null,
+    "runtime": 137,
     "showtime": 2130
   },
   {
@@ -3492,7 +3492,7 @@
     "title": "Revue Film Society: TOKYO DRIFTER (1966) - New Restoration!",
     "date": "2026-05-05",
     "link": "https://revuecinema.ca/films/revue-film-society-tokyo-drifter-1966-new-restoration/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1900
   },
   {
@@ -3500,7 +3500,7 @@
     "title": "To 70 And Beyond: CLOSE ENCOUNTERS OF THE THIRD KIND (1977) - Presented on 70mm!",
     "date": "2026-05-07",
     "link": "https://revuecinema.ca/films/close-encounters-of-the-third-kind/",
-    "runtime": null,
+    "runtime": 137,
     "showtime": 2130
   },
   {
@@ -3508,7 +3508,7 @@
     "title": "Revue Event: TWIN PEAKS: Season 2 (episodes 19 - 22)",
     "date": "2026-05-09",
     "link": "https://revuecinema.ca/films/revue-event-twin-peaks-season-2-episodes-19-22/",
-    "runtime": null,
+    "runtime": 192,
     "showtime": 1200
   },
   {
@@ -3516,7 +3516,7 @@
     "title": "(Not-So) Terrible Twos: SCARY MOVIE 2 - 25th Anniversary Screening!",
     "date": "2026-05-09",
     "link": "https://revuecinema.ca/films/not-so-terrible-twos-scary-movie-2-25th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 82,
     "showtime": 1630
   },
   {
@@ -3524,7 +3524,7 @@
     "title": "We Really Like Her!: FUNNY GIRL (1968) - New 4K Restoration!",
     "date": "2026-05-10",
     "link": "https://revuecinema.ca/films/we-really-like-her-funny-girl-1968-new-4k-restoration/",
-    "runtime": null,
+    "runtime": 155,
     "showtime": 1530
   },
   {
@@ -3532,7 +3532,7 @@
     "title": "Staff Pick Of The Month: ZAZIE DANS LE MÉTRO (1960)",
     "date": "2026-05-10",
     "link": "https://revuecinema.ca/films/staff-pick-of-the-month-zazie-dans-le-metro-1960/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1900
   },
   {
@@ -3540,7 +3540,7 @@
     "title": "Free Members-Only Screening: SECRET SCREENING!",
     "date": "2026-05-12",
     "link": "https://revuecinema.ca/films/free-members-only-screening-secret-screening/",
-    "runtime": null,
+    "runtime": 100,
     "showtime": 1830
   },
   {
@@ -3548,7 +3548,7 @@
     "title": "Drunken Cinema: ADVENTURES IN BABYSITTING (1987) - Presented in 35mm!",
     "date": "2026-05-15",
     "link": "https://revuecinema.ca/films/drunken-cinema-adventures-in-babysitting-1987-presented-in-35mm/",
-    "runtime": null,
+    "runtime": 102,
     "showtime": 2130
   },
   {
@@ -3556,7 +3556,7 @@
     "title": "When Animals Attack: TICKS (1993)",
     "date": "2026-05-19",
     "link": "https://revuecinema.ca/films/when-animals-attack-ticks-1993/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   },
   {
@@ -3564,7 +3564,7 @@
     "title": "Hold Up: A KNIGHT'S TALE - 25th Anniversary Screening!",
     "date": "2026-05-20",
     "link": "https://revuecinema.ca/films/hold-up-a-knights-tale-25th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 133,
     "showtime": 1830
   },
   {
@@ -3572,7 +3572,7 @@
     "title": "Come Back to the 5 & Dime, Jimmy Dean, Jimmy Dean",
     "date": "2026-05-20",
     "link": "https://paradiseonbloor.com/movies/come-back-to-the-5-dime-jimmy-dean-jimmy-dean/",
-    "runtime": null,
+    "runtime": 110,
     "showtime": 1930
   },
   {
@@ -3580,7 +3580,7 @@
     "title": "Designing The Movies: BIG NIGHT - 30th Anniversary Screening!",
     "date": "2026-05-21",
     "link": "https://revuecinema.ca/films/designing-the-movies-big-night-30th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 109,
     "showtime": 1830
   },
   {
@@ -3588,7 +3588,7 @@
     "title": "Destination Love: DOUBLE HAPPINESS (1994)",
     "date": "2026-05-23",
     "link": "https://revuecinema.ca/films/destination-love-double-happiness-1994/",
-    "runtime": null,
+    "runtime": 87,
     "showtime": 1900
   },
   {
@@ -3596,7 +3596,7 @@
     "title": "Destination Love: INTERSECTION (1994)",
     "date": "2026-05-24",
     "link": "https://revuecinema.ca/films/destination-love-intersection-1994/",
-    "runtime": null,
+    "runtime": 98,
     "showtime": 1600
   },
   {
@@ -3604,7 +3604,7 @@
     "title": "Destination Love: BETTER THAN CHOCOLATE (1999)",
     "date": "2026-05-25",
     "link": "https://revuecinema.ca/films/destination-love-better-than-chocolate-1999/",
-    "runtime": null,
+    "runtime": 101,
     "showtime": 2130
   },
   {
@@ -3612,7 +3612,7 @@
     "title": "Destination Love: GOLDEN DELICIOUS (2022)",
     "date": "2026-05-26",
     "link": "https://revuecinema.ca/films/destination-love-golden-delicious-2022/",
-    "runtime": null,
+    "runtime": 120,
     "showtime": 2130
   },
   {
@@ -3620,7 +3620,7 @@
     "title": "FOUND FOOTAGE FEST:  Volume 11",
     "date": "2026-05-29",
     "link": "https://revuecinema.ca/films/found-footage-fest/",
-    "runtime": null,
+    "runtime": 90,
     "showtime": 2130
   },
   {
@@ -3628,7 +3628,7 @@
     "title": "Revue Event: THE LORD OF THE RINGS: THE RETURN OF THE KING (Extended Edition!)",
     "date": "2026-05-30",
     "link": "https://revuecinema.ca/films/revue-event-the-lord-of-the-rings-the-return-of-the-king-extended-edition/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1300
   },
   {
@@ -3636,7 +3636,7 @@
     "title": "FOUND FOOTAGE FEST:  Volume 11",
     "date": "2026-05-30",
     "link": "https://revuecinema.ca/films/found-footage-fest/",
-    "runtime": null,
+    "runtime": 90,
     "showtime": 1845
   },
   {
@@ -3644,7 +3644,7 @@
     "title": "Revue Event: BLIND COP 2 u2013 Director In Attendance!",
     "date": "2026-05-31",
     "link": "https://revuecinema.ca/films/revue-event-blind-cop-2-cast-crew-in-attendance-canadian-premiere/",
-    "runtime": null,
+    "runtime": 83,
     "showtime": 1900
   },
   {
@@ -3652,7 +3652,7 @@
     "title": "When Aliens Attack: MARS ATTACK! - 30th Anniversary Screening!",
     "date": "2026-06-10",
     "link": "https://revuecinema.ca/films/when-aliens-attack-mars-attack-30th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 106,
     "showtime": 1845
   },
   {
@@ -3660,7 +3660,7 @@
     "title": "Drunken Cinema: BACK TO THE FUTURE (1985)",
     "date": "2026-06-19",
     "link": "https://revuecinema.ca/films/drunken-cinema-back-to-the-future-1985/",
-    "runtime": null,
+    "runtime": 116,
     "showtime": 2130
   },
   {
@@ -3668,7 +3668,7 @@
     "title": "Terrible Threes: JURASSIC PARK III - 25th Anniversary Screening!",
     "date": "2026-06-20",
     "link": "https://revuecinema.ca/films/terrible-threes-jurassic-park-iii-25th-anniversary-screening/",
-    "runtime": null,
+    "runtime": 92,
     "showtime": 1900
   },
   {
@@ -3676,7 +3676,7 @@
     "title": "Father's Day: THE SHINING (1980)",
     "date": "2026-06-21",
     "link": "https://revuecinema.ca/films/fathers-day-the-shining-4k-restoration/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 1530
   },
   {
@@ -3684,7 +3684,7 @@
     "title": "When Animals Attack: JAWS (1975) - Presented on 35mm!",
     "date": "2026-06-27",
     "link": "https://revuecinema.ca/films/when-animals-attack-jaws-1975/",
-    "runtime": null,
+    "runtime": 124,
     "showtime": 1830
   },
   {
@@ -3692,7 +3692,7 @@
     "title": "When Animals Attack: JAWS (1975) - Presented on 35mm!",
     "date": "2026-06-28",
     "link": "https://revuecinema.ca/films/when-animals-attack-jaws-1975/",
-    "runtime": null,
+    "runtime": 124,
     "showtime": 1300
   },
   {
@@ -3700,7 +3700,7 @@
     "title": "35 on 35: MADONNA: TRUTH OR DARE (1991) - Presented on 35mm!",
     "date": "2026-06-29",
     "link": "https://revuecinema.ca/films/35-on-35-madonna-truth-or-dare-1991-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 120,
     "showtime": 1830
   },
   {
@@ -3708,7 +3708,7 @@
     "title": "35 on 35: MADONNA: TRUTH OR DARE (1991) - Presented on 35mm!",
     "date": "2026-06-30",
     "link": "https://revuecinema.ca/films/35-on-35-madonna-truth-or-dare-1991-presented-on-35mm/",
-    "runtime": null,
+    "runtime": 120,
     "showtime": 2130
   },
   {
@@ -3716,7 +3716,7 @@
     "title": "When Animals Attack: JAWS (1975) - Presented on 35mm!",
     "date": "2026-07-01",
     "link": "https://revuecinema.ca/films/when-animals-attack-jaws-1975/",
-    "runtime": null,
+    "runtime": 124,
     "showtime": 1600
   },
   {
@@ -3724,7 +3724,7 @@
     "title": "Drunken Cinema: TIMECOP (1994)",
     "date": "2026-07-10",
     "link": "https://revuecinema.ca/films/drunken-cinema-timecop-1994/",
-    "runtime": null,
+    "runtime": 0,
     "showtime": 2130
   }
 ]

@@ -60,6 +60,28 @@ def clean_time(time_str):
     except:
         return 0
 
+def extract_runtime_minutes(text):
+    """Extracts runtime minutes from text like 'Run Time: 83 min.'."""
+    if not text:
+        return None
+    match = re.search(r"\b(\d{2,3})\s*(?:min|mins|minutes)\b", str(text), re.IGNORECASE)
+    if not match:
+        return None
+    return int(match.group(1))
+
+def fetch_runtime_from_event_page(url):
+    """Fetches an event/movie page and tries to parse runtime in minutes."""
+    if not url:
+        return None
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=15)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        page_text = soup.get_text(" ", strip=True)
+        return extract_runtime_minutes(page_text)
+    except Exception:
+        return None
+
 def scrape_paradise():
     url = "https://paradiseonbloor.com/coming-soon/"
     movies = []
@@ -83,6 +105,9 @@ def scrape_paradise():
 
             link_tag = block.find("a", href=True)
             link = urljoin(url, link_tag["href"]) if link_tag else None
+            show_details_block = block.find_parent("div", class_="show-details")
+            runtime_text = show_details_block.get_text(" ", strip=True) if show_details_block else block.get_text(" ", strip=True)
+            runtime = extract_runtime_minutes(runtime_text)
             
             showtimes = [li.get_text(strip=True) for li in block.find_all("li") 
                          if re.search(r"\d{1,2}:\d{2}", li.get_text())]
@@ -93,7 +118,7 @@ def scrape_paradise():
                 "date": format_date_to_iso(date), 
                 "showtimes": showtimes,
                 "link": link,
-                "runtime": None,
+                "runtime": runtime,
             })
     except Exception as e:
         print(f"❌ Error Paradise: {e}")
@@ -102,6 +127,7 @@ def scrape_paradise():
 def scrape_revue():
     url = "https://revuecinema.ca/calendar/"
     events = []
+    runtime_cache = {}
     try:
         res = requests.get(url, headers=HEADERS, timeout=10)
         res.raise_for_status()
@@ -116,13 +142,16 @@ def scrape_revue():
         for ev in raw_events:
             start = ev.get("start", "")
             date, showtime = start.split(" ") if " " in start else (start, "TBD")
+            event_url = ev.get("url")
+            if event_url not in runtime_cache:
+                runtime_cache[event_url] = fetch_runtime_from_event_page(event_url)
             events.append({
                 "source": "Revue Cinema",
                 "title": ev.get("title"),
                 "date": date,
                 "showtimes": [showtime],
-                "link": ev.get("url"),
-                "runtime": None
+                "link": event_url,
+                "runtime": runtime_cache.get(event_url)
             })
     except Exception as e:
         print(f"❌ Error Revue: {e}")
@@ -153,6 +182,7 @@ def scrape_tiff_local():
             
             for schedule in item.get("scheduleItems", []):
                 raw_start = schedule.get("startTime", "")
+                raw_end = schedule.get("endTime", "")
                 if not raw_start:
                     continue
 
@@ -165,6 +195,18 @@ def scrape_tiff_local():
                         continue
                 if not dt_obj:
                     continue
+
+                runtime_minutes = None
+                if raw_end:
+                    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S"):
+                        try:
+                            end_obj = datetime.strptime(raw_end, fmt)
+                            runtime_minutes = int((end_obj - dt_obj).total_seconds() // 60)
+                            if runtime_minutes < 0:
+                                runtime_minutes = None
+                            break
+                        except ValueError:
+                            continue
                 
                 standardized_movies.append({
                     "source": "TIFF Lightbox",
@@ -172,7 +214,7 @@ def scrape_tiff_local():
                     "date": dt_obj.strftime("%Y-%m-%d"),
                     "showtimes": [dt_obj.strftime("%H:%M")], 
                     "link": link,
-                    "runtime": None
+                    "runtime": runtime_minutes
                 })
     except Exception as e:
         print(f"❌ Error TIFF: {e}")
@@ -201,6 +243,22 @@ def normalize_text(value):
     text = re.sub(r"u00([0-9a-fA-F]{2})", lambda m: chr(int(m.group(1), 16)), text)
     return text
 
+def normalize_runtime_minutes(value):
+    """Normalizes runtime to integer minutes."""
+    if value is None:
+        return None
+    if isinstance(value, int):
+        return value
+    if isinstance(value, float):
+        return int(value)
+    text = str(value).strip()
+    if not text:
+        return None
+    match = re.search(r"\d{2,3}", text)
+    if not match:
+        return None
+    return int(match.group(0))
+
 def scrape_imagine_carlton():
     location = "Imagine Cinemas : Carlton"
     movies = []
@@ -221,6 +279,8 @@ def scrape_imagine_carlton():
             for element in elements:
                 title_elem = element.select_one('.movie-title')
                 title = title_elem.get_text(strip=True) if title_elem else "Unknown Title"
+                runtime_elem = element.select_one(".runtime")
+                runtime = extract_runtime_minutes(runtime_elem.get_text(" ", strip=True) if runtime_elem else None)
                 times = element.select('.times')
                 
                 for time in times:
@@ -240,7 +300,7 @@ def scrape_imagine_carlton():
                                 "date": date_str,
                                 "showtimes": [showtime.strip() + "PM"],
                                 "link": temp_link,
-                                "runtime": None
+                                "runtime": runtime
                             })
     except Exception as e:
         print(f"❌ Error Imagine Carlton: {e}")
@@ -560,6 +620,9 @@ def main():
     for entry in raw_data:
         normalized_entry = entry.copy()
         normalized_entry["title"] = normalize_text(normalized_entry.get("title"))
+        normalized_entry["runtime"] = normalize_runtime_minutes(normalized_entry.get("runtime"))
+        if normalized_entry["runtime"] is None:
+            normalized_entry["runtime"] = 0
         title = (normalized_entry.get("title") or "").strip().lower()
         if title in BLACKLIST_TITLES:
             continue
