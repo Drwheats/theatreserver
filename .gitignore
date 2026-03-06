@@ -141,3 +141,7 @@ vite.config.ts.timestamp-*
 #payload for testing
 testpayload.json
 .venv
+
+# Python cache files
+__pycache__/
+*.pyc
