@@ -18,7 +18,8 @@ jobs:
           key: ${{ secrets.OCI_SSH_KEY }}
           script: |
             cd /var/www/theatreserver
-            git pull
+            git fetch origin main
+            git reset --hard origin/main
             npm install
             pm2 restart theatreserver
             python3 -m venv venv
