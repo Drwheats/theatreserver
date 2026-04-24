@@ -145,3 +145,6 @@ testpayload.json
 # Python cache files
 __pycache__/
 *.pyc
+
+# Ignore movie scraper output data
+all_movies.json
