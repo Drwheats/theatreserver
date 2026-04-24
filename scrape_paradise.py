@@ -31,6 +31,46 @@ FOX_SHOWTIME_SPAN_RE = re.compile(
     r'<span[^>]*data-date="([^"]+)"[^>]*>(.*?)</span>', re.IGNORECASE | re.DOTALL
 )
 
+def clean_time(time_str):
+    # 1. If it's already an integer, just return it immediately
+    if isinstance(time_str, int):
+        return time_str
+        
+    if not time_str:
+        return 0
+    
+    try:
+        # 2. Ensure it's a string before calling .lower()
+        time_str = str(time_str).lower().strip()
+        
+        numbers = re.findall(r'\d+', time_str)
+        if not numbers: 
+            return 0
+        
+        hour = int(numbers[0])
+        minute = int(numbers[1]) if len(numbers) > 1 else 0
+        
+        if 'p' in time_str and hour < 12:
+            hour += 12
+        elif 'a' in time_str and hour == 12:
+            hour = 0
+            
+        return (hour * 100) + minute
+    except Exception as e:
+        # This was returning 0 and hiding the 'int' error
+        return 0    
+
+def extract_runtime_minutes(text):
+    if not text: return 0
+    # Matches '38' in '1h 38min' or '98 min'
+    match = re.search(r"(\d+)\s*(?:min|m|minutes)", text, re.I)
+    if 'h' in text.lower():
+        h_match = re.search(r"(\d+)\s*h", text, re.I)
+        h = int(h_match.group(1)) * 60 if h_match else 0
+        m = int(match.group(1)) if match else 0
+        return h + m
+    return int(match.group(1)) if match else 0
+
 def format_date_to_iso(raw_date):
     """Converts 'Fri,  Feb 6' -> '2026-02-06'"""
     if not raw_date or "Unknown Date" in raw_date or "," not in raw_date:
@@ -45,29 +85,6 @@ def format_date_to_iso(raw_date):
         print(f"⚠️ Error formatting '{raw_date}': {e}")
         return datetime.now().strftime("%Y-%m-%d")
 
-def clean_time(time_str):
-    """Converts '6:30 pm' or '18:30' into integer 630 or 1830."""
-    if isinstance(time_str, int): return time_str
-    try:
-        time_str = time_str.lower().strip()
-        numbers = re.findall(r'\d+', time_str)
-        if not numbers: return 0
-        hour = int(numbers[0])
-        minute = int(numbers[1]) if len(numbers) > 1 else 0
-        if 'pm' in time_str and hour < 12: hour += 12
-        if 'am' in time_str and hour == 12: hour = 0
-        return (hour * 100) + minute
-    except:
-        return 0
-
-def extract_runtime_minutes(text):
-    """Extracts runtime minutes from text like 'Run Time: 83 min.'."""
-    if not text:
-        return None
-    match = re.search(r"\b(\d{2,3})\s*(?:min|mins|minutes)\b", str(text), re.IGNORECASE)
-    if not match:
-        return None
-    return int(match.group(1))
 
 def fetch_runtime_from_event_page(url):
     """Fetches an event/movie page and tries to parse runtime in minutes."""
@@ -263,48 +280,55 @@ def scrape_imagine_carlton():
     location = "Imagine Cinemas : Carlton"
     movies = []
     
-    try:
-        for i in range(10):
-            date = datetime.now() + timedelta(days=i)
-            date_str = date.strftime('%Y-%m-%d')
-            
-            url = f'https://imaginecinemas.com/cinema/carlton/?date={date_str}'
+    for i in range(7):
+        date_obj = datetime.now() + timedelta(days=i)
+        date_str = date_obj.strftime('%Y-%m-%d')
+        url = f'https://imaginecinemas.com/cinema/carlton/?date={date_str}'
+        
+        try:
             response = requests.get(url, headers=HEADERS, timeout=10)
-            response.raise_for_status()
-            
             soup = BeautifulSoup(response.text, 'html.parser')
-            elements = soup.select('.movie-showtime')
             
-            
-            for element in elements:
-                title_elem = element.select_one('.movie-title')
-                title = title_elem.get_text(strip=True) if title_elem else "Unknown Title"
-                runtime_elem = element.select_one(".runtime")
-                runtime = extract_runtime_minutes(runtime_elem.get_text(" ", strip=True) if runtime_elem else None)
-                times = element.select('.times')
+            for block in soup.select('.movie-showtime'):
+                title = block.select_one('.movie-title').get_text(strip=True) if block.select_one('.movie-title') else "Unknown"
                 
-                for time in times:
-                    perf_elem = time.select_one('.movie-performance')
-                    if not perf_elem:
-                        continue
+                # Get runtime
+                rt_elem = block.select_one('.runtime')
+                runtime = extract_runtime_minutes(rt_elem.get_text(strip=True)) if rt_elem else 0
+                
+                for perf in block.select('a.movie-performance'):
+                    raw_time = perf.get_text(strip=True)
                     
-                    temp = perf_elem.get_text(strip=True)
-                    temp_link = perf_elem.get('href')
+                    # --- THE FIX ---
+                    # Your helper uses 'pm' in time_str.lower(). 
+                    # If the site gives "6:50PM", let's ensure it has a space so the regex 
+                    # and the 'pm' check are distinct.
+                    formatted_time = raw_time.lower().replace("am", " am").replace("pm", " pm")
                     
-                    showtimes = temp.split("PM")
-                    for showtime in showtimes:
-                        if showtime.strip():
-                            movies.append({
-                                "source": location,
-                                "title": title,
-                                "date": date_str,
-                                "showtimes": [showtime.strip() + "PM"],
-                                "link": temp_link,
-                                "runtime": runtime
-                            })
-    except Exception as e:
-        print(f"❌ Error Imagine Carlton: {e}")
-    
+                    # Pass this to your helper
+                    showtime_val = clean_time(formatted_time)
+                    
+                    # If it's STILL 0, we can force a manual override just for this script
+                    if showtime_val == 0 and ":" in raw_time:
+                        # Manual fallback: just in case the helper is totally stuck
+                        nums = re.findall(r'\d+', raw_time)
+                        if len(nums) >= 2:
+                            h, m = int(nums[0]), int(nums[1])
+                            if 'PM' in raw_time.upper() and h < 12: h += 12
+                            showtime_val = (h * 100) + m
+
+                    movies.append({
+                        "source": location,
+                        "title": title,
+                        "date": date_str,
+                        "link": perf.get('href'),
+                        "runtime": runtime or 0,
+                        "showtime": showtime_val 
+                    })
+                    
+        except Exception as e:
+            print(f"Error: {e}")
+            
     return movies
 
 def scrape_innis():
@@ -609,6 +633,7 @@ def main():
         ("Fox Theatre", scrape_fox),
     ]
 
+    # 1. Run Scrapers
     for theatre_name, scraper in scraper_jobs:
         print(f"📡 Running {scraper.__name__}...")
         result = scraper() or []
@@ -616,40 +641,63 @@ def main():
         if result:
             raw_data.extend(result)
 
+    # 2. Normalize and Filter
     filtered_raw_data = []
     for entry in raw_data:
         normalized_entry = entry.copy()
         normalized_entry["title"] = normalize_text(normalized_entry.get("title"))
         normalized_entry["runtime"] = normalize_runtime_minutes(normalized_entry.get("runtime"))
+        
         if normalized_entry["runtime"] is None:
             normalized_entry["runtime"] = 0
+            
         title = (normalized_entry.get("title") or "").strip().lower()
         if title in BLACKLIST_TITLES:
             continue
+            
         if not is_on_or_after_yesterday(normalized_entry.get("date")):
             continue
+            
         filtered_raw_data.append(normalized_entry)
 
+    # 3. Flattening and Formatting Showtimes
     print("🔨 Flattening and formatting showtimes...")
     for entry in filtered_raw_data:
-        showtimes = entry.get("showtimes", [])
+        # Check both potential keys
+        # Carlton uses 'showtime' (singular integer)
+        # Others might use 'showtimes' (plural list of strings)
+        single_showtime = entry.get("showtime")
+        showtimes_list = entry.get("showtimes")
+
+        # CASE 1: Scraper provided a pre-parsed integer showtime (Carlton style)
+        if single_showtime is not None:
+            new_entry = entry.copy()
+            new_entry.pop("showtimes", None)  # Remove list key if it exists
+            # We run it through clean_time one last time to ensure 24h format
+            new_entry["showtime"] = clean_time(single_showtime)
+            final_data.append(new_entry)
+            continue
+
+        # CASE 2: Scraper provided a list of time strings (Old style)
+        if showtimes_list and isinstance(showtimes_list, list):
+            for t in showtimes_list:
+                new_entry = entry.copy()
+                new_entry.pop("showtimes", None)
+                new_entry["showtime"] = clean_time(t)
+                final_data.append(new_entry)
         
-        if not showtimes:
+        # CASE 3: No valid time data found
+        else:
+            # If we already added Case 1, this won't be reached due to 'continue'
             new_entry = entry.copy()
             new_entry.pop("showtimes", None)
             new_entry["showtime"] = 0
             final_data.append(new_entry)
-            continue
 
-        for t in showtimes:
-            new_entry = entry.copy()
-            new_entry.pop("showtimes", None)
-            new_entry["showtime"] = clean_time(t)
-            final_data.append(new_entry)
-
-    # Final sort by date and then time
+    # 4. Final sort by date and then time
     final_data.sort(key=lambda x: (x['date'], x['showtime']))
 
+    # 5. Save Output
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final_data, f, indent=2, ensure_ascii=False)
 
