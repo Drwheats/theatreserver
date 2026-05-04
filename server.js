@@ -9,6 +9,7 @@ const app = express();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const BLOG_ADMIN_TOKEN = process.env.BLOG_ADMIN_TOKEN || '';
 
 // Allow multiple trusted origins via a whitelist
 const whitelist = [
@@ -122,6 +123,18 @@ function resolvePublicPathToDisk(publicPath) {
   return path.join(__dirname, String(publicPath || '').replace(/^\/+/, ''));
 }
 
+function requireBlogAuth(req, res, next) {
+  if (!BLOG_ADMIN_TOKEN) {
+    return res.status(503).json({ error: 'Blog auth is not configured on server' });
+  }
+  const authHeader = req.get('authorization') || '';
+  const expected = `Bearer ${BLOG_ADMIN_TOKEN}`;
+  if (authHeader !== expected) {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+  next();
+}
+
 app.get("/", (req, res) => {
   res.json({
     status: "ok",
@@ -160,7 +173,7 @@ app.get('/api/blog/posts/:slug', (req, res) => {
   res.json(normalizePostForApi(post, req));
 });
 
-app.post('/api/blog/posts', upload.single('image'), (req, res) => {
+app.post('/api/blog/posts', requireBlogAuth, upload.single('image'), (req, res) => {
   const posts = readBlogPosts();
   const title = (req.body.title || '').trim();
   const content = (req.body.content || '').trim();
@@ -196,7 +209,7 @@ app.post('/api/blog/posts', upload.single('image'), (req, res) => {
   res.status(201).json(normalizePostForApi(post, req));
 });
 
-app.put('/api/blog/posts/:id', upload.single('image'), (req, res) => {
+app.put('/api/blog/posts/:id', requireBlogAuth, upload.single('image'), (req, res) => {
   const posts = readBlogPosts();
   const idx = posts.findIndex((p) => p.id === req.params.id);
   if (idx === -1) return res.status(404).json({ error: 'Post not found' });
@@ -239,7 +252,7 @@ app.put('/api/blog/posts/:id', upload.single('image'), (req, res) => {
   res.json(normalizePostForApi(updated, req));
 });
 
-app.delete('/api/blog/posts/:id', (req, res) => {
+app.delete('/api/blog/posts/:id', requireBlogAuth, (req, res) => {
   const posts = readBlogPosts();
   const idx = posts.findIndex((p) => p.id === req.params.id);
   if (idx === -1) return res.status(404).json({ error: 'Post not found' });

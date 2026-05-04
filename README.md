@@ -22,7 +22,9 @@ Express server for Local Theatre app calendar and blog content.
 ## Setup
 1. Install dependencies:
    - `npm install`
-2. Start the server:
+2. Configure blog auth token env var:
+   - `export BLOG_ADMIN_TOKEN="Zx7ZUXjoM9gn7W7p8omm"`
+3. Start the server:
    - `npm start`
 3. Server listens on:
    - `http://0.0.0.0:3000`
@@ -57,19 +59,23 @@ Each post stores:
   - returns one post by slug.
 - `POST /api/blog/posts`
   - creates a post.
+  - requires `Authorization: Bearer <BLOG_ADMIN_TOKEN>`
   - content type: `multipart/form-data`
   - required fields: `title`, `content`
   - optional fields: `excerpt`, `slug`, `seoTitle`, `seoDescription`, `image`
 - `PUT /api/blog/posts/:id`
   - updates post by id.
+  - requires `Authorization: Bearer <BLOG_ADMIN_TOKEN>`
   - content type: `multipart/form-data`
   - supports same fields as create.
 - `DELETE /api/blog/posts/:id`
+  - requires `Authorization: Bearer <BLOG_ADMIN_TOKEN>`
   - deletes a post and its image file (if present).
 
 ### Example: Create Post with Image
 ```bash
 curl -X POST "http://localhost:3000/api/blog/posts" \
+  -H "Authorization: Bearer Zx7ZUXjoM9gn7W7p8omm" \
   -F "title=TIFF Hidden Gems" \
   -F "content=Long-form content here..." \
   -F "excerpt=Quick summary for cards" \
@@ -81,13 +87,15 @@ curl -X POST "http://localhost:3000/api/blog/posts" \
 ### Example: Update Post
 ```bash
 curl -X PUT "http://localhost:3000/api/blog/posts/<POST_ID>" \
+  -H "Authorization: Bearer Zx7ZUXjoM9gn7W7p8omm" \
   -F "title=Updated title" \
   -F "content=Updated content"
 ```
 
 ### Example: Delete Post
 ```bash
-curl -X DELETE "http://localhost:3000/api/blog/posts/<POST_ID>"
+curl -X DELETE "http://localhost:3000/api/blog/posts/<POST_ID>" \
+  -H "Authorization: Bearer Zx7ZUXjoM9gn7W7p8omm"
 ```
 
 ## SEO / Indexing Routes
@@ -147,7 +155,7 @@ It writes `all_movies.json` and prints a per-theatre entry count summary.
 - Blog persistence is filesystem-based, not database-backed.
 - Back up `data/blog_posts.json` and `uploads/blog-images/`.
 - On multi-instance deployments, move storage to shared object storage/database.
-- Add auth before exposing blog write endpoints publicly.
+- Blog write endpoints require `BLOG_ADMIN_TOKEN`.
 
 ## Quick Smoke Checklist
 1. `npm start` in this repo.
