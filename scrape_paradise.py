@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import html
 import json
 import re
+import subprocess
 from urllib.parse import urljoin, urlparse
 from datetime import datetime, timedelta, date
 
@@ -61,15 +62,19 @@ def clean_time(time_str):
         return 0    
 
 def extract_runtime_minutes(text):
-    if not text: return 0
-    # Matches '38' in '1h 38min' or '98 min'
-    match = re.search(r"(\d+)\s*(?:min|m|minutes)", text, re.I)
-    if 'h' in text.lower():
-        h_match = re.search(r"(\d+)\s*h", text, re.I)
-        h = int(h_match.group(1)) * 60 if h_match else 0
-        m = int(match.group(1)) if match else 0
-        return h + m
-    return int(match.group(1)) if match else 0
+    if not text:
+        return 0
+
+    # Handle explicit hour-based runtimes only (e.g. "1h 38min", "2 h 5 min").
+    hour_match = re.search(r"\b(\d{1,2})\s*h(?:\s*(\d{1,2})\s*(?:min|m|minutes))?\b", text, re.I)
+    if hour_match:
+        hours = int(hour_match.group(1))
+        mins = int(hour_match.group(2)) if hour_match.group(2) else 0
+        return hours * 60 + mins
+
+    # Fallback for minute-only forms like "98 min".
+    min_match = re.search(r"\b(\d{2,3})\s*(?:min|m|minutes)\b", text, re.I)
+    return int(min_match.group(1)) if min_match else 0
 
 def format_date_to_iso(raw_date):
     """Converts 'Fri,  Feb 6' -> '2026-02-06'"""
@@ -619,6 +624,30 @@ def scrape_fox():
     all_results.sort(key=lambda x: (x["date"], (x["showtimes"] or [""])[0], x["title"]))
     return all_results
 
+def scrape_hot_docs():
+    try:
+        proc = subprocess.run(
+            ["node", "scripts/scrape_hotdocs_puppeteer.mjs"],
+            check=True,
+            capture_output=True,
+            text=True,
+            timeout=120,
+        )
+        data = json.loads(proc.stdout)
+        if not isinstance(data, list):
+            return []
+        return data
+    except subprocess.CalledProcessError as e:
+        stderr = (e.stderr or "").strip()
+        print(f"❌ Error Hot Docs (puppeteer): {stderr or e}")
+        return []
+    except subprocess.TimeoutExpired:
+        print("❌ Error Hot Docs (puppeteer): timed out")
+        return []
+    except Exception as e:
+        print(f"❌ Error Hot Docs: {e}")
+        return []
+
 def main():
     raw_data = []
     final_data = []
@@ -631,6 +660,7 @@ def main():
         ("Imagine Cinemas : Carlton", scrape_imagine_carlton),
         ("Innis College", scrape_innis),
         ("Fox Theatre", scrape_fox),
+        ("Hot Docs", scrape_hot_docs),
     ]
 
     # 1. Run Scrapers
