@@ -150,6 +150,18 @@ Run:
 - `python3 scrape_paradise.py`
 
 It writes `all_movies.json` and prints a per-theatre entry count summary.
+It also writes `all_music.json` for local music events.
+
+Output entries include:
+- `event_type: "cinema"` for movie/theatre sources
+- `event_type: "music"` for `scrape_local_music` sources
+
+### Adding New Scrapers
+- Add your scraper function in `scrape_paradise.py`.
+- Register it in one of:
+  - `MOVIE_SCRAPER_SOURCES`
+  - `MUSIC_SCRAPER_SOURCES`
+- Format: `("Source Name", "scrape_function_name")`
 
 ### Hot Docs (Puppeteer) on Linux/ARM
 - Hot Docs scraping uses Puppeteer against `boxoffice.hotdocs.ca`.

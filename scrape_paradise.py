@@ -8,7 +8,8 @@ from urllib.parse import urljoin, urlparse
 from datetime import datetime, timedelta, date
 
 # Config
-OUTPUT_FILE = "all_movies.json"
+OUTPUT_MOVIES_FILE = "all_movies.json"
+OUTPUT_MUSIC_FILE = "all_music.json"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
@@ -31,6 +32,21 @@ FOX_HREF_RE = re.compile(r'href="([^"]+)"')
 FOX_SHOWTIME_SPAN_RE = re.compile(
     r'<span[^>]*data-date="([^"]+)"[^>]*>(.*?)</span>', re.IGNORECASE | re.DOTALL
 )
+
+# Add new scraper sources here.
+# Pattern: ("Source Label", scraper_function)
+MOVIE_SCRAPER_SOURCES = [
+    ("The Paradise", "scrape_paradise"),
+    ("Revue Cinema", "scrape_revue"),
+    ("TIFF Lightbox", "scrape_tiff_local"),
+    ("Imagine Cinemas : Carlton", "scrape_imagine_carlton"),
+    ("Innis College", "scrape_innis"),
+    ("Fox Theatre", "scrape_fox"),
+    ("Hot Docs", "scrape_hot_docs"),
+]
+MUSIC_SCRAPER_SOURCES = [
+    ("The Great Hall", "scrape_local_music"),
+]
 
 def clean_time(time_str):
     # 1. If it's already an integer, just return it immediately
@@ -624,6 +640,58 @@ def scrape_fox():
     all_results.sort(key=lambda x: (x["date"], (x["showtimes"] or [""])[0], x["title"]))
     return all_results
 
+def scrape_local_music():
+    url = "https://thegreathall.ca/calendar/"
+    events = []
+    seen = set()
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=20)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        for card in soup.select(".tgh-event-item-container .tgh-e-container"):
+            title_el = card.select_one(".tgh-e-title")
+            date_el = card.select_one(".tgh-e-date")
+            time_el = card.select_one(".tgh-e-time")
+            venue_el = card.select_one(".tgh-e-venue")
+            link_el = card.select_one(".tgh-e-button a[href], .tgh-e-img a[href]")
+
+            title = title_el.get_text(" ", strip=True) if title_el else ""
+            raw_date = date_el.get_text(" ", strip=True) if date_el else ""
+            raw_time = time_el.get_text(" ", strip=True) if time_el else ""
+            venue = venue_el.get_text(" ", strip=True) if venue_el else ""
+            link = urljoin(url, link_el["href"]) if link_el and link_el.has_attr("href") else url
+
+            if not title or not raw_date:
+                continue
+
+            try:
+                dt_obj = datetime.strptime(raw_date, "%a %b %d %Y")
+                iso_date = dt_obj.strftime("%Y-%m-%d")
+            except Exception:
+                continue
+
+            key = (title.lower(), iso_date, raw_time.lower(), venue.lower())
+            if key in seen:
+                continue
+            seen.add(key)
+
+            events.append({
+                "source": "The Great Hall",
+                "title": title,
+                "date": iso_date,
+                "showtimes": [raw_time] if raw_time else [],
+                "link": link,
+                "runtime": 0,
+                "venue": venue,
+                "event_type": "music",
+            })
+    except Exception as e:
+        print(f"❌ Error Local Music: {e}")
+        return []
+
+    return events
+
 def scrape_hot_docs():
     try:
         proc = subprocess.run(
@@ -648,41 +716,20 @@ def scrape_hot_docs():
         print(f"❌ Error Hot Docs: {e}")
         return []
 
-def main():
-    raw_data = []
+def build_output_entries(raw_data, default_event_type="cinema", apply_blacklist=True):
     final_data = []
-    scraper_counts = {}
-
-    scraper_jobs = [
-        ("The Paradise", scrape_paradise),
-        ("Revue Cinema", scrape_revue),
-        ("TIFF Lightbox", scrape_tiff_local),
-        ("Imagine Cinemas : Carlton", scrape_imagine_carlton),
-        ("Innis College", scrape_innis),
-        ("Fox Theatre", scrape_fox),
-        ("Hot Docs", scrape_hot_docs),
-    ]
-
-    # 1. Run Scrapers
-    for theatre_name, scraper in scraper_jobs:
-        print(f"📡 Running {scraper.__name__}...")
-        result = scraper() or []
-        scraper_counts[theatre_name] = len(result)
-        if result:
-            raw_data.extend(result)
-
-    # 2. Normalize and Filter
     filtered_raw_data = []
     for entry in raw_data:
         normalized_entry = entry.copy()
         normalized_entry["title"] = normalize_text(normalized_entry.get("title"))
         normalized_entry["runtime"] = normalize_runtime_minutes(normalized_entry.get("runtime"))
+        normalized_entry["event_type"] = normalized_entry.get("event_type") or default_event_type
         
         if normalized_entry["runtime"] is None:
             normalized_entry["runtime"] = 0
             
         title = (normalized_entry.get("title") or "").strip().lower()
-        if title in BLACKLIST_TITLES:
+        if apply_blacklist and title in BLACKLIST_TITLES:
             continue
             
         if not is_on_or_after_yesterday(normalized_entry.get("date")):
@@ -691,7 +738,6 @@ def main():
         filtered_raw_data.append(normalized_entry)
 
     # 3. Flattening and Formatting Showtimes
-    print("🔨 Flattening and formatting showtimes...")
     for entry in filtered_raw_data:
         # Check both potential keys
         # Carlton uses 'showtime' (singular integer)
@@ -724,17 +770,56 @@ def main():
             new_entry["showtime"] = 0
             final_data.append(new_entry)
 
-    # 4. Final sort by date and then time
     final_data.sort(key=lambda x: (x['date'], x['showtime']))
+    return final_data
 
-    # 5. Save Output
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(final_data, f, indent=2, ensure_ascii=False)
+def run_scraper_jobs(jobs):
+    raw_data = []
+    counts = {}
+    for source_name, scraper_fn in jobs:
+        print(f"📡 Running {scraper_fn.__name__}...")
+        result = scraper_fn() or []
+        counts[source_name] = len(result)
+        if result:
+            raw_data.extend(result)
+    return raw_data, counts
+
+def resolve_scraper_jobs(source_defs):
+    jobs = []
+    for source_name, function_name in source_defs:
+        scraper_fn = globals().get(function_name)
+        if not callable(scraper_fn):
+            print(f"⚠️ Skipping {source_name}: scraper '{function_name}' not found")
+            continue
+        jobs.append((source_name, scraper_fn))
+    return jobs
+
+def main():
+    movie_scraper_jobs = resolve_scraper_jobs(MOVIE_SCRAPER_SOURCES)
+    music_scraper_jobs = resolve_scraper_jobs(MUSIC_SCRAPER_SOURCES)
+
+    # 1. Run scraper groups
+    movie_raw_data, movie_counts = run_scraper_jobs(movie_scraper_jobs)
+    music_raw_data, music_counts = run_scraper_jobs(music_scraper_jobs)
+
+    # 2. Flatten outputs
+    print("🔨 Flattening and formatting showtimes...")
+    movie_final_data = build_output_entries(movie_raw_data, default_event_type="cinema", apply_blacklist=True)
+    music_final_data = build_output_entries(music_raw_data, default_event_type="music", apply_blacklist=False)
+
+    # 3. Save outputs
+    with open(OUTPUT_MOVIES_FILE, "w", encoding="utf-8") as f:
+        json.dump(movie_final_data, f, indent=2, ensure_ascii=False)
+    with open(OUTPUT_MUSIC_FILE, "w", encoding="utf-8") as f:
+        json.dump(music_final_data, f, indent=2, ensure_ascii=False)
 
     print("📊 Scrape summary:")
-    for theatre_name, _ in scraper_jobs:
-        print(f"   Got {scraper_counts.get(theatre_name, 0)} entries for {theatre_name}")
-    print(f"✅ Success! {len(final_data)} entries saved to {OUTPUT_FILE}.")
+    for source_name, _ in movie_scraper_jobs:
+        print(f"   Got {movie_counts.get(source_name, 0)} entries for {source_name}")
+    for source_name, _ in music_scraper_jobs:
+        print(f"   Got {music_counts.get(source_name, 0)} entries for {source_name}")
+    print(f"✅ Success! {len(movie_final_data)} entries saved to {OUTPUT_MOVIES_FILE}.")
+    print(f"✅ Success! {len(music_final_data)} entries saved to {OUTPUT_MUSIC_FILE}.")
 
 if __name__ == "__main__":
     main()
