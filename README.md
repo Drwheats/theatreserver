@@ -151,6 +151,12 @@ Run:
 
 It writes `all_movies.json` and prints a per-theatre entry count summary.
 
+### Hot Docs (Puppeteer) on Linux/ARM
+- Hot Docs scraping uses Puppeteer against `boxoffice.hotdocs.ca`.
+- On ARM servers, set a system Chrome/Chromium path:
+  - `export PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser`
+  - or `export PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium`
+
 ## Operational Notes
 - Blog persistence is filesystem-based, not database-backed.
 - Back up `data/blog_posts.json` and `uploads/blog-images/`.

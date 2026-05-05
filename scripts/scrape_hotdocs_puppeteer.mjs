@@ -1,4 +1,5 @@
 import puppeteer from "puppeteer";
+import fs from "fs";
 
 const TARGET_URL =
   "https://boxoffice.hotdocs.ca/websales/pages/list.aspx?cp242=KenticoInclude&epguid=a2104450-7e47-4369-a17d-c247570c3939&";
@@ -16,10 +17,27 @@ function parseRuntimeMinutes(text) {
 }
 
 async function scrape() {
-  const browser = await puppeteer.launch({
+  const configuredExecutable =
+    process.env.PUPPETEER_EXECUTABLE_PATH ||
+    process.env.CHROME_PATH ||
+    ["/usr/bin/chromium-browser", "/usr/bin/chromium", "/snap/bin/chromium"]
+      .find((p) => fs.existsSync(p));
+
+  const launchOptions = {
     headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
-  });
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--single-process",
+      "--no-zygote",
+    ],
+  };
+  if (configuredExecutable) {
+    launchOptions.executablePath = configuredExecutable;
+  }
+
+  const browser = await puppeteer.launch(launchOptions);
 
   try {
     const page = await browser.newPage();
