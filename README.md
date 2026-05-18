@@ -156,6 +156,20 @@ Output entries include:
 - `event_type: "cinema"` for movie/theatre sources
 - `event_type: "music"` for `scrape_local_music` sources
 
+### Matrix Alerts
+The scraper can post success/failure alerts to a Matrix room using env vars.
+
+1. Copy `.env.example` to `.env` and set values:
+   - `MATRIX_HOMESERVER_URL`
+   - `MATRIX_ROOM_ID`
+   - `MATRIX_ACCESS_TOKEN`
+2. Run scraper normally:
+   - `python3 scrape_paradise.py`
+
+If env vars are present, the script sends:
+- Success summary (entry counts + duration)
+- Failure message (exception type + message)
+
 ### Adding New Scrapers
 - Add your scraper function in `scrape_paradise.py`.
 - Register it in one of:

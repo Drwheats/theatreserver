@@ -2,10 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 import html
 import json
+import os
 import re
 import subprocess
 from urllib.parse import urljoin, urlparse
 from datetime import datetime, timedelta, date
+from uuid import uuid4
 
 # Config
 OUTPUT_MOVIES_FILE = "all_movies.json"
@@ -47,6 +49,47 @@ MOVIE_SCRAPER_SOURCES = [
 MUSIC_SCRAPER_SOURCES = [
     ("The Great Hall", "scrape_local_music"),
 ]
+
+
+def load_dotenv(path=".env"):
+    if not os.path.exists(path):
+        return
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            for raw_line in f:
+                line = raw_line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                key, value = line.split("=", 1)
+                key = key.strip()
+                value = value.strip().strip('"').strip("'")
+                if key and key not in os.environ:
+                    os.environ[key] = value
+    except Exception as e:
+        print(f"⚠️ Could not load .env file: {e}")
+
+
+def send_matrix_alert(message):
+    homeserver = os.getenv("MATRIX_HOMESERVER_URL", "").rstrip("/")
+    access_token = os.getenv("MATRIX_ACCESS_TOKEN", "")
+    room_id = os.getenv("MATRIX_ROOM_ID", "")
+    if not homeserver or not access_token or not room_id:
+        return False
+
+    txn_id = uuid4().hex
+    url = f"{homeserver}/_matrix/client/v3/rooms/{room_id}/send/m.room.message/{txn_id}"
+    payload = {"msgtype": "m.text", "body": message}
+    headers = {
+        "Authorization": f"Bearer {access_token}",
+        "Content-Type": "application/json",
+    }
+    try:
+        response = requests.put(url, headers=headers, json=payload, timeout=20)
+        response.raise_for_status()
+        return True
+    except Exception as e:
+        print(f"⚠️ Failed to send Matrix alert: {e}")
+        return False
 
 def clean_time(time_str):
     # 1. If it's already an integer, just return it immediately
@@ -795,6 +838,9 @@ def resolve_scraper_jobs(source_defs):
     return jobs
 
 def main():
+    started_at = datetime.now()
+    print(f"🕒 Scrape run started at {started_at.strftime('%Y-%m-%d %H:%M:%S %Z')}")
+
     movie_scraper_jobs = resolve_scraper_jobs(MOVIE_SCRAPER_SOURCES)
     music_scraper_jobs = resolve_scraper_jobs(MUSIC_SCRAPER_SOURCES)
 
@@ -820,6 +866,34 @@ def main():
         print(f"   Got {music_counts.get(source_name, 0)} entries for {source_name}")
     print(f"✅ Success! {len(movie_final_data)} entries saved to {OUTPUT_MOVIES_FILE}.")
     print(f"✅ Success! {len(music_final_data)} entries saved to {OUTPUT_MUSIC_FILE}.")
+    finished_at = datetime.now()
+    elapsed_seconds = (finished_at - started_at).total_seconds()
+    print(f"🕒 Scrape run finished at {finished_at.strftime('%Y-%m-%d %H:%M:%S %Z')} ({elapsed_seconds:.1f}s)")
+    return {
+        "movie_count": len(movie_final_data),
+        "music_count": len(music_final_data),
+        "started_at": started_at,
+        "finished_at": finished_at,
+        "elapsed_seconds": elapsed_seconds,
+    }
 
 if __name__ == "__main__":
-    main()
+    load_dotenv()
+    try:
+        result = main()
+        send_matrix_alert(
+            "✅ Theatre scrape succeeded\n"
+            f"Started: {result['started_at'].strftime('%Y-%m-%d %H:%M:%S')}\n"
+            f"Finished: {result['finished_at'].strftime('%Y-%m-%d %H:%M:%S')}\n"
+            f"Duration: {result['elapsed_seconds']:.1f}s\n"
+            f"Movies: {result['movie_count']} entries\n"
+            f"Music: {result['music_count']} entries"
+        )
+    except Exception as e:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        send_matrix_alert(
+            "❌ Theatre scrape failed\n"
+            f"Time: {timestamp}\n"
+            f"Error: {type(e).__name__}: {e}"
+        )
+        raise
