@@ -1,36 +1,6 @@
 [
   {
     "source": "The Great Hall",
-    "title": "Annabelle Dinda",
-    "date": "2026-05-13",
-    "link": "https://thegreathall.ca/event/annabelle-dinda-2/",
-    "runtime": 0,
-    "venue": "Longboat Hall",
-    "event_type": "music",
-    "showtime": 1900
-  },
-  {
-    "source": "The Great Hall",
-    "title": "Flyte",
-    "date": "2026-05-13",
-    "link": "https://thegreathall.ca/event/flyte/",
-    "runtime": 0,
-    "venue": "Main Hall",
-    "event_type": "music",
-    "showtime": 1900
-  },
-  {
-    "source": "The Great Hall",
-    "title": "Lion Babe",
-    "date": "2026-05-14",
-    "link": "https://thegreathall.ca/event/lion-babe/",
-    "runtime": 0,
-    "venue": "Longboat Hall",
-    "event_type": "music",
-    "showtime": 1900
-  },
-  {
-    "source": "The Great Hall",
     "title": "Brigitte Calls Me Baby",
     "date": "2026-05-19",
     "link": "https://thegreathall.ca/event/brigitte-calls-me-baby-2/",
@@ -161,6 +131,16 @@
   },
   {
     "source": "The Great Hall",
+    "title": "Black Joe Louis & The Honeybears",
+    "date": "2026-07-16",
+    "link": "https://thegreathall.ca/event/black-joe-louis-the-honeybears/",
+    "runtime": 0,
+    "venue": "Longboat Hall",
+    "event_type": "music",
+    "showtime": 1900
+  },
+  {
+    "source": "The Great Hall",
     "title": "Arlo",
     "date": "2026-07-18",
     "link": "https://thegreathall.ca/event/arlo/",
@@ -191,6 +171,16 @@
   },
   {
     "source": "The Great Hall",
+    "title": "Jon Spencer",
+    "date": "2026-09-10",
+    "link": "https://thegreathall.ca/event/jon-spencer/",
+    "runtime": 0,
+    "venue": "Main Hall",
+    "event_type": "music",
+    "showtime": 1900
+  },
+  {
+    "source": "The Great Hall",
     "title": "Soda Blonde",
     "date": "2026-09-12",
     "link": "https://thegreathall.ca/event/soda_blonde/",
@@ -198,16 +188,6 @@
     "venue": "Longboat Hall",
     "event_type": "music",
     "showtime": 2000
-  },
-  {
-    "source": "The Great Hall",
-    "title": "DeVotchKa",
-    "date": "2026-09-14",
-    "link": "https://thegreathall.ca/event/devotchka/",
-    "runtime": 0,
-    "venue": "Longboat Hall",
-    "event_type": "music",
-    "showtime": 1900
   },
   {
     "source": "The Great Hall",
@@ -221,11 +201,31 @@
   },
   {
     "source": "The Great Hall",
+    "title": "DeVotchKa",
+    "date": "2026-09-14",
+    "link": "https://thegreathall.ca/event/devotchka/",
+    "runtime": 0,
+    "venue": "Longboat Hall",
+    "event_type": "music",
+    "showtime": 1900
+  },
+  {
+    "source": "The Great Hall",
     "title": "Sam Greenfield",
     "date": "2026-09-15",
     "link": "https://thegreathall.ca/event/sam-greenfield/",
     "runtime": 0,
     "venue": "Longboat Hall",
+    "event_type": "music",
+    "showtime": 1900
+  },
+  {
+    "source": "The Great Hall",
+    "title": "Theo Katzman",
+    "date": "2026-09-27",
+    "link": "https://thegreathall.ca/event/theo-katzman/",
+    "runtime": 0,
+    "venue": "Main Hall",
     "event_type": "music",
     "showtime": 1900
   },
@@ -256,6 +256,16 @@
     "link": "https://thegreathall.ca/event/friko-2/",
     "runtime": 0,
     "venue": "Main Hall",
+    "event_type": "music",
+    "showtime": 1900
+  },
+  {
+    "source": "The Great Hall",
+    "title": "The Bobby Lees",
+    "date": "2026-10-20",
+    "link": "https://thegreathall.ca/event/the-bobby-lees/",
+    "runtime": 0,
+    "venue": "Longboat Hall",
     "event_type": "music",
     "showtime": 1900
   },
